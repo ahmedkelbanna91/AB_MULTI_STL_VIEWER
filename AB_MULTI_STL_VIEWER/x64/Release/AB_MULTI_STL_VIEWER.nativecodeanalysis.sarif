@@ -1,0 +1,2468 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'GetModuleHandleW(\"kernel32.dll\")' could be '0':  this does not adhere to the specification for the function 'GetProcAddress'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Banna-Desktop/Desktop/dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/rang.hpp"
+                },
+                "region": {
+                  "startLine": 172,
+                  "startColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "rang::rang_implementation::isMsysPty",
+                  "decoratedName": "?isMsysPty@rang_implementation@rang@@YA_NH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Banna-Desktop/Desktop/dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/rang.hpp"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'<symbol>' receives the Return value from 'GetModuleHandleW' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\um\\libloaderapi.h:244)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Banna-Desktop/Desktop/dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/rang.hpp"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'<symbol>' receives the Return value from 'GetModuleHandleW' (declared at c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\um\\libloaderapi.h:244)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Banna-Desktop/Desktop/dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/rang.hpp"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'GetModuleHandleW(\"kernel32.dll\")' should not be NULL, because this is not consistent with the SAL annotation on 'GetProcAddress'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtkObjectBase::IsInMemkind' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkObjectBase.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkObjectBase::{ctor}",
+                  "decoratedName": "??0vtkObjectBase@@IEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkObjectBase::IsInMemkind"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtkObjectBase::WeakPointers' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkObjectBase.h"
+                },
+                "region": {
+                  "startLine": 319,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkObjectBase::{ctor}",
+                  "decoratedName": "??0vtkObjectBase@@IEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkObjectBase::WeakPointers"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtksys::Status::<unnamed-tag>::POSIX_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/Status.hxx"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtksys::Status::{ctor}",
+                  "decoratedName": "??0Status@vtksys@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtksys::Status::<unnamed-tag>::POSIX_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtksys::Status::<unnamed-tag>::Windows_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/Status.hxx"
+                },
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtksys::Status::{ctor}",
+                  "decoratedName": "??0Status@vtksys@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtksys::Status::<unnamed-tag>::Windows_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtksys::Status::<unnamed-tag>::POSIX_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/Status.hxx"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtksys::Status::{ctor}",
+                  "decoratedName": "??0Status@vtksys@@AEAA@W4Kind@01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtksys::Status::<unnamed-tag>::POSIX_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtksys::Status::<unnamed-tag>::Windows_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/Status.hxx"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtksys::Status::{ctor}",
+                  "decoratedName": "??0Status@vtksys@@AEAA@W4Kind@01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtksys::Status::<unnamed-tag>::Windows_"
+          }
+        },
+        {
+          "ruleId": "C6287",
+          "level": "warning",
+          "message": {
+            "text": "Redundant code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkVariantInlineOperators.h"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 12,
+                  "endLine": 20,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IsSigned64Bit",
+                  "decoratedName": "?IsSigned64Bit@@YA_NH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26828",
+          "level": "warning",
+          "message": {
+            "text": "Different enum types have overlapping values. Did you want to use another enum constant here?."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkPolyDataInternals.h"
+                },
+                "region": {
+                  "startLine": 111,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkPolyData_detail::GenTargetVar",
+                  "decoratedName": "?GenTargetVar@vtkPolyData_detail@@YAEW4Target@1@W4TypeVariant@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtkCommand::PassiveObserver' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkCommand.h"
+                },
+                "region": {
+                  "startLine": 463,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkCommand::{ctor}",
+                  "decoratedName": "??0vtkCommand@@IEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkCommand::PassiveObserver"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtkCommand::AbortFlag' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkCommand.h"
+                },
+                "region": {
+                  "startLine": 463,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkCommand::{ctor}",
+                  "decoratedName": "??0vtkCommand@@IEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkCommand::AbortFlag"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtkEventData::Type' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkEventData.h"
+                },
+                "region": {
+                  "startLine": 76,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkEventData::{ctor}",
+                  "decoratedName": "??0vtkEventData@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkEventData::Type"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtkEventDataDevice3D::WorldOrientation' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkEventData.h"
+                },
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkEventDataDevice3D::{ctor}",
+                  "decoratedName": "??0vtkEventDataDevice3D@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkEventDataDevice3D::WorldOrientation"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtkEventDataDevice3D::TrackPadPosition' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkEventData.h"
+                },
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkEventDataDevice3D::{ctor}",
+                  "decoratedName": "??0vtkEventDataDevice3D@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkEventDataDevice3D::TrackPadPosition"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtkEventDataDevice3D::WorldDirection' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkEventData.h"
+                },
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkEventDataDevice3D::{ctor}",
+                  "decoratedName": "??0vtkEventDataDevice3D@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkEventDataDevice3D::WorldDirection"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtkEventDataDevice3D::WorldPosition' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkEventData.h"
+                },
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkEventDataDevice3D::{ctor}",
+                  "decoratedName": "??0vtkEventDataDevice3D@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkEventDataDevice3D::WorldPosition"
+          }
+        },
+        {
+          "ruleId": "C6287",
+          "level": "warning",
+          "message": {
+            "text": "Redundant code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkMatrixUtilities.h"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkMatrixUtilities::MatrixLayoutIs2D",
+                  "decoratedName": "??$MatrixLayoutIs2D@PEAY02M@vtkMatrixUtilities@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6287",
+          "level": "warning",
+          "message": {
+            "text": "Redundant code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkMatrixUtilities.h"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkMatrixUtilities::MatrixLayoutIs2D",
+                  "decoratedName": "??$MatrixLayoutIs2D@PEAY02N@vtkMatrixUtilities@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6287",
+          "level": "warning",
+          "message": {
+            "text": "Redundant code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkMatrixUtilities.h"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkMatrixUtilities::MatrixLayoutIs2D",
+                  "decoratedName": "??$MatrixLayoutIs2D@PEAY02$$CBM@vtkMatrixUtilities@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6287",
+          "level": "warning",
+          "message": {
+            "text": "Redundant code."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkMatrixUtilities.h"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkMatrixUtilities::MatrixLayoutIs2D",
+                  "decoratedName": "??$MatrixLayoutIs2D@PEAY02$$CBN@vtkMatrixUtilities@@YA_NXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.33901.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Banna-Desktop/Desktop/dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/rang.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "14b5093d570947d43112699623114bc6d8ade302c01c9018a8991a4928bbe970"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkObjectBase.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "46ada9fc4b32253ca150aae01a131d31ec43b57a641e242d6520916c2741a3fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/Status.hxx"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d9986a87aa3a16ff3cefed8a2039f9d33bf304441799293955d713078a747a92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkVariantInlineOperators.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c747a37201c85ccab0b46bd9ad7e33da79bfdbf94d221513c5f422f7dee3fba3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkPolyDataInternals.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "be436efe6cc3962cdf5a5a078bd1b378e9df355fe8e69118ba578f5af5962aa9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkCommand.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7ba4386a6bdae10fd9c50f6b7bdb22d1ed7565d45ec0a25ac4e92ec30ad9dcd8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkEventData.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5555030c5b6d8f8dcafe14f271e469b41388af160191bca4dad36fd0e076adec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkMatrixUtilities.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8ff678a98ceeb0020a03d8ad91203ae191a23076d7f77b90eaa7c97d98cceec9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/banna-desktop/desktop/dev/ab_multi_stl_viewer/ab_multi_stl_viewer/ab_multi_stl_viewer.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "9adf78b007d088fdb23144fe689ed6d5caade4687403b3095a5cb4579bbe9c2d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtknew.h"
+          },
+          "hashes": {
+            "sha-256": "f0a135e0a56b29ab39813ec2272906a077e3feb36fdbe179475d19d08a9eb266"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkiostream.h"
+          },
+          "hashes": {
+            "sha-256": "eec021998716fe95f1a0bb580cdd4a1d5e032753333ffecab42e4c2d40d986b3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkmeta.h"
+          },
+          "hashes": {
+            "sha-256": "57224ee7ce9e0cbf02b0871496825f06118545c1214dfe83ae9a99817dcf8a43"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabinamespace.h"
+          },
+          "hashes": {
+            "sha-256": "a857ad282a067e890e4dd40370a27a6e1adcfaebf28ec3f1aaae761efbbccf02"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkpolydata.h"
+          },
+          "hashes": {
+            "sha-256": "9174d4ce62d94ef6dc4fb4e3d372642061525dc3bba1e8b3c1207aa5c7a0c459"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcommondatamodelmodule.h"
+          },
+          "hashes": {
+            "sha-256": "16290f612e835645ae3494fe6bcfeae459e0a546bd566e06008620b6e268898c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkpointset.h"
+          },
+          "hashes": {
+            "sha-256": "e08c45d883bce4bc19479ab0bb54360f3fea2eae575a85be1cbeeb574a05f18a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataset.h"
+          },
+          "hashes": {
+            "sha-256": "29cb2adfad48d8be2c54d361d55413d04c50b25c950736b2697cb87f66d995f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataobject.h"
+          },
+          "hashes": {
+            "sha-256": "470749f1e913c1a1b910d68c4e811ec61591b7422f432e4d1bb73e91b0ffd9ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkobject.h"
+          },
+          "hashes": {
+            "sha-256": "85ee83cd7af870cb328f02bcd84fc9ee69de1a907b0de0828d2c86ed1dd9fd92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcommoncoremodule.h"
+          },
+          "hashes": {
+            "sha-256": "153815a76d8b56c84f749e8b9c46c77ba3e60c886c70c67825d568b5bf7e1eed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkfeatures.h"
+          },
+          "hashes": {
+            "sha-256": "b0701785c35c9fb9b1f5d8c07610dc8eebdd7ab94eddda484dcab68860627552"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkindent.h"
+          },
+          "hashes": {
+            "sha-256": "8b559545f1f4556d968d3127036f7a133cde70769eaf22082b8e38fe155fe1d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksystemincludes.h"
+          },
+          "hashes": {
+            "sha-256": "720a3ab5507ab34b190c5921889f16b74b825d3dd431e1512b58966e5a1d6ed0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkwin32header.h"
+          },
+          "hashes": {
+            "sha-256": "bb93431dd3090d1f419b49b6e6ff115688a791c15704498036a76724201ca5d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabi.h"
+          },
+          "hashes": {
+            "sha-256": "d09d08b217b9546abdf017a61311079c51be965c1e0a6a4ddf4a851ed79d2684"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkoptions.h"
+          },
+          "hashes": {
+            "sha-256": "559e051729ba7886d271afcbe6287d6f711afc1aaa998eafb82ead291a0a17c4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkbuild.h"
+          },
+          "hashes": {
+            "sha-256": "769429c8906633470c57ba0885a9d6ed0fe1cc92dc7aa6b37af36c9ced7abc70"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkplatform.h"
+          },
+          "hashes": {
+            "sha-256": "4e2662f009e140ba965db00b3a15d7be1bf2a31b7f72fa4cd8e8c79ac6549d1f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktype.h"
+          },
+          "hashes": {
+            "sha-256": "f4498f3b8656b1a1f2aebb0df5ef086d442f101e8940eac6670b9af57317d64a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcompiler.h"
+          },
+          "hashes": {
+            "sha-256": "e856756ee5cf952469642d4b03f3b20699a6b541e96a852b97593375ce90773c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtk_kwiml.h"
+          },
+          "hashes": {
+            "sha-256": "b41530e1cfeefbe14f854920d4df17ebfd8105e01817f6e3cf0c26e503450ef3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkkwiml/abi.h"
+          },
+          "hashes": {
+            "sha-256": "e9295041f7c88e8cb62e85c6f81133dcd4d1765e0122177a5353dc1333d9919d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkkwiml/int.h"
+          },
+          "hashes": {
+            "sha-256": "c8632b0e792209e5261c203c14942e477d201f582a33b49b8ee50db34d5b0e59"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkwrappinghints.h"
+          },
+          "hashes": {
+            "sha-256": "b8c8d8e4c2ff0ff437757a16cc29498ec181a458a8df2b17e65d0a5227f209a7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkostreamwrapper.h"
+          },
+          "hashes": {
+            "sha-256": "f9efbc0bfcd69be4e04b8558e7779bb02605399498454ef7a71f111d9a82f407"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkostrstreamwrapper.h"
+          },
+          "hashes": {
+            "sha-256": "4b37bdb575abf4593a71f2120138b23f14ad057b7ba4ae0a7b20dc71569aad45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksetget.h"
+          },
+          "hashes": {
+            "sha-256": "09634c8f540d8c097186c9f3d8fcfefe039bfdfdabd256fce4ef14a4d6d8d01d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/systemtools.hxx"
+          },
+          "hashes": {
+            "sha-256": "ab6768e4aa2693253537b3759fd2ec9aa761f9b2c206d64ac4d202879f980bd4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/configure.hxx"
+          },
+          "hashes": {
+            "sha-256": "9f4643403f5c6b88407437598b19b9b7a12fcfcc345fde8eef8be81aeff13de9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/configure.h"
+          },
+          "hashes": {
+            "sha-256": "f26eb16fc006a9fbc84b262647d3a49ecd41bf43b3a446daff505260a00188a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktimestamp.h"
+          },
+          "hashes": {
+            "sha-256": "335d91824446176b9baa5086c68706ccd298327ceab1b1964e05c06b87933c4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkweakpointerbase.h"
+          },
+          "hashes": {
+            "sha-256": "dc578500e16cb3e16146ac547bac79a48a39f0ec706524b4d6412cc1f2a64939"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdeprecation.h"
+          },
+          "hashes": {
+            "sha-256": "b46b8262370e51e7960fae1ab4d94114297d4f355b3d3d1c66e44e9d5a0b58b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkversionmacros.h"
+          },
+          "hashes": {
+            "sha-256": "70aa76bc291909182262f01ab6de90de4635b3431407083de746d17d6bf8e30d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcelltypes.h"
+          },
+          "hashes": {
+            "sha-256": "d1b33e9857983bfe47f7c31fb0b490262d6c0fe900e655cd76180cbe5e939cb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcelltype.h"
+          },
+          "hashes": {
+            "sha-256": "ba59b98e2ec9035448ffa24a447947ab605fb3f5045f14135f2941823d746261"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkidtypearray.h"
+          },
+          "hashes": {
+            "sha-256": "5efb4b127eab30964dda48471f1dae38b99398b442f4bad8d4c29c16064b5b61"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkaosdataarraytemplate.h"
+          },
+          "hashes": {
+            "sha-256": "b2cf663abb9e3dae4338df9fb2964b0395e4fbbdb64946c4625b81f7e8130798"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkbuffer.h"
+          },
+          "hashes": {
+            "sha-256": "ee33181685a85a8a2b0bfb195f28f62079c7caba5467eb9ed56965e91528a396"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkobjectfactory.h"
+          },
+          "hashes": {
+            "sha-256": "aba7b0c8e5149730ac77bef90cc8fa0e923b63b191c4dcf65d442ba0419851a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdebugleaksmanager.h"
+          },
+          "hashes": {
+            "sha-256": "9c4e5e745c10eae352807be1cf4925a11a01bbe03faad1c2010901dbf78a571e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkgenericdataarray.h"
+          },
+          "hashes": {
+            "sha-256": "b941885c820674e4199275498033108567a9dbd814c4dd06d55d8fe15ba2f995"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataarray.h"
+          },
+          "hashes": {
+            "sha-256": "dcd199417b62947039fb3dcbde14afe5cf04bc0d87d3334558c27238d58d8618"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabstractarray.h"
+          },
+          "hashes": {
+            "sha-256": "c8d56151a98751514ac4b0526a35b49abd801b139cab575173cabc68ea61a89e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkidlist.h"
+          },
+          "hashes": {
+            "sha-256": "81bd669589e12f5feb47ea6e239cf2ad0a86852027b5be0673d0bd7ec123b172"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkvariant.h"
+          },
+          "hashes": {
+            "sha-256": "2abf911adca64a06ae0cac3dc16a0322e226146db46cf1380c8e0b9dd3601556"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkstdstring.h"
+          },
+          "hashes": {
+            "sha-256": "17653c0f79bf3b30c9cdb79a00d59dfef8f83c5e85c9f04587f6b386fda9a4bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkvtk_use_scaled_soa_arrays.h"
+          },
+          "hashes": {
+            "sha-256": "7cc727f9131c68fae677fb1cd84ae23d88525329a1c923108bd1fb5f6d2d313e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkgenericdataarraylookuphelper.h"
+          },
+          "hashes": {
+            "sha-256": "88ad0c8d95cd11c1e8ea8926f021fd99f57902c5a287950c4972a4b547a6557a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksmartpointer.h"
+          },
+          "hashes": {
+            "sha-256": "1bc73363b612f2f1e7ae753cdb36be19b04dac402c75982f0065b35e2e1e7ea3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksmartpointerbase.h"
+          },
+          "hashes": {
+            "sha-256": "7fba1573247171384c84eba63cd32a8de00a05394fb7af013af3763bf544fa50"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktypetraits.h"
+          },
+          "hashes": {
+            "sha-256": "dd25568ec84b6df9a78f3358ebe568a9ab76c7af62df8e34fb5f026c437cbe0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkgenericdataarray.txx"
+          },
+          "hashes": {
+            "sha-256": "8740907251bbb344c7a62ff915bc025f62aefd84470020055b4d5c72eb12b8f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkmath.h"
+          },
+          "hashes": {
+            "sha-256": "47d1827bab5fb1f72c24b0216040f1ab285c31b5e3063fec0d1fea2474e61e53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkmathprivate.hxx"
+          },
+          "hashes": {
+            "sha-256": "d8eccd7e63bbda00e28fda0fb64305f7ec73f9d671a2c34a08916105df24be4d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkmathconfigure.h"
+          },
+          "hashes": {
+            "sha-256": "beff633d62557fe30e75111087328953d3bfef71e9d3b9569cd3af19c89cb9d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkvariantcast.h"
+          },
+          "hashes": {
+            "sha-256": "29b115a25f35df0afeae00ccc9c63702b60f93ffb0a33df365dff1bbfd72d084"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkunsignedchararray.h"
+          },
+          "hashes": {
+            "sha-256": "7f8188a823e5e9b91533a848bd105c82c44de2f3f05c96b94c1287f900b197d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkemptycell.h"
+          },
+          "hashes": {
+            "sha-256": "b06b87dfdbf54eea93b5d203c20392211244f96fc4024b6ffd0892b898c2e4c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcell.h"
+          },
+          "hashes": {
+            "sha-256": "f634ff0f0eb99a237856bb93a47b146785929343bce55f2def79c6e571066d3a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkboundingbox.h"
+          },
+          "hashes": {
+            "sha-256": "d7eceb6c9a697ac1dfe636c7eb3bcf5d35a54c780ce120f67ffea84393536150"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkgenericcell.h"
+          },
+          "hashes": {
+            "sha-256": "6cd7902f60c52a4801aa3a879384f8fd6be012eb3f5a2d1a132a49d9f078f1cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkpoints.h"
+          },
+          "hashes": {
+            "sha-256": "8e79a900b6c03dad657fefc6bcf5a675e15483b37c31d7389852f732129ab122"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcellarray.h"
+          },
+          "hashes": {
+            "sha-256": "5302770299b4d0e5511872606cec22e8e8383678cb3c00611133b657cf1ffe92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataarrayrange.h"
+          },
+          "hashes": {
+            "sha-256": "3aa3bdc25fdaf42bd18df0f46413a7f88eb11093b885b9bc2ce8d198eb93427f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataarraymeta.h"
+          },
+          "hashes": {
+            "sha-256": "926fd8df5ba1ecfb0b271b39ccac8b7efabf0923d2f56d8d45c619aa3ee71ad5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkassume.h"
+          },
+          "hashes": {
+            "sha-256": "f90489f7b39dc77987f385238fca7212799efa43bc1c19b8e93d588e0e517b22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdebugrangeiterators.h"
+          },
+          "hashes": {
+            "sha-256": "583a18cdae5a58ae08210c0746a29ffdac7529b42cfc8c5a944fe2cce2298cf4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataarraytuplerange_aos.h"
+          },
+          "hashes": {
+            "sha-256": "a8d4b7885baaaf7d3c4724fd13c2150c0c75b398239b5d3a6c2dc974312f7b1a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataarraytuplerange_generic.h"
+          },
+          "hashes": {
+            "sha-256": "487127d5f686cf9d63dd8467cb899e6c25ae043c2a2a55438406bf51840b9dd5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataarrayaccessor.h"
+          },
+          "hashes": {
+            "sha-256": "aa6091d9ac2e20c916527caa2e2a61ab7d9eb41c650a28a36df2ee87e7f07c5e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataarrayvaluerange_aos.h"
+          },
+          "hashes": {
+            "sha-256": "659ca6f9ebf5f37dc7838be529686a1ca45e38226fdb6b4642b2934f537a81ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdataarrayvaluerange_generic.h"
+          },
+          "hashes": {
+            "sha-256": "5ff32d2d35c29e9d4673cd250055965dd3501b5f829cc76cb2822760cdbf7fbe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktypeint32array.h"
+          },
+          "hashes": {
+            "sha-256": "91ceefe74cee8abf958d17a5c11a3d19b2258614dc89dab04e8688367fc7fa95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkintarray.h"
+          },
+          "hashes": {
+            "sha-256": "3a8adc3882c791e1c4f47b09709c48fd67abaf1b60e3242b8c9858f8e65e7b2e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktypeint64array.h"
+          },
+          "hashes": {
+            "sha-256": "4986056cd020d4bca3e8ec4b24cf6f5a3f3b89d688b0ebb4cff5ab5dbb1d4947"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtklonglongarray.h"
+          },
+          "hashes": {
+            "sha-256": "e5de3eab6d7cd90156db17bc8bdbff4d7834218d94e0930832fd681809631d96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktypelist.h"
+          },
+          "hashes": {
+            "sha-256": "168f49421798c09cc48a8814138cf1afbc065159b1cc645ce2ac0093a818b926"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktypelistmacros.h"
+          },
+          "hashes": {
+            "sha-256": "b786e0d4f1b22f61dcbd196aa1115d381671ec4cda48d08c2fa941ceb735c1a0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktypelist.txx"
+          },
+          "hashes": {
+            "sha-256": "87ed2b8818aa7ceeabeaf8bd9bac83ece07ad2c9a9da5d78817f197447f05298"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcelllinks.h"
+          },
+          "hashes": {
+            "sha-256": "a6c9939629f475f06b851f31c2fc6814a367cb2ec67a934ee162af57c78a3582"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabstractcelllinks.h"
+          },
+          "hashes": {
+            "sha-256": "9e37ce0528c02dc49c73b8f42f452550067dee8c6a19d463180fd58c61ccaa84"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkpolydatamapper.h"
+          },
+          "hashes": {
+            "sha-256": "098eb9313dd3e5ae4a9894119048576bb1862f4cab2ddd975c69207f1aeedc13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkmapper.h"
+          },
+          "hashes": {
+            "sha-256": "96b68ad6ff56ff509f17318efdfb1e555e63a3ad7cfabdbc302d882b5b482193"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabstractmapper3d.h"
+          },
+          "hashes": {
+            "sha-256": "c84216a10807f11c0907ae50cae77e498909ade099ebd03024fa16b3174ef79b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabstractmapper.h"
+          },
+          "hashes": {
+            "sha-256": "85559b4426b982235cb0a7c379f315b2178037a0b4cd72de8235e23ca7101a8f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkalgorithm.h"
+          },
+          "hashes": {
+            "sha-256": "9dcc37f20e09623d7fcda00dd6d100a84845d7c7cbf17933748c54b5755ab6c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcommonexecutionmodelmodule.h"
+          },
+          "hashes": {
+            "sha-256": "92cb8866ca64d81736e3f92d0a2e5f281ab248aa8e15509e4169f9e2ebd7cff5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrenderingcoremodule.h"
+          },
+          "hashes": {
+            "sha-256": "15589aeb355dd74edb63ee14162c5f5ed81e2b5ab11967369fe6bc0d3282faa3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkfilterscoremodule.h"
+          },
+          "hashes": {
+            "sha-256": "19ae419eb1eb5a4f651427644fe5a9108e95e47a37ce4896e79a792a788d57ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkactor.h"
+          },
+          "hashes": {
+            "sha-256": "20d483f64d8c902bb631a8fed9add6d9e20b56a31954a068721f599b0adaa5ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkprop3d.h"
+          },
+          "hashes": {
+            "sha-256": "63443bb2d1f13b1385087608332010cd22477fab57feafd9d43018e5def708f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkprop.h"
+          },
+          "hashes": {
+            "sha-256": "b0c44ce39b7015b753157251b4a182ebe29b9b9995b27fad81c80a4c368239cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkweakpointer.h"
+          },
+          "hashes": {
+            "sha-256": "bb39478b6fcfbf7775fd8429a97c51b6ce5b116b715c27e6f5c1d0e40c63966e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrenderer.h"
+          },
+          "hashes": {
+            "sha-256": "4cd868e5ca40a51d018c3ac152541960187385f169e65979056c4117f31015d8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkviewport.h"
+          },
+          "hashes": {
+            "sha-256": "b1f0b6e674e7abc421ae27ab3a44bc4b20665e024005119401d10565279a27a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkselection.h"
+          },
+          "hashes": {
+            "sha-256": "66b2eb6415d74c98389539831292955f3c45fbbf39975902d208ed229ce3d2a2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkactorcollection.h"
+          },
+          "hashes": {
+            "sha-256": "7f1b39a81cc0e1212698c3d4b412094330a36d99c866b453e461a8ed65d7a28e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkpropcollection.h"
+          },
+          "hashes": {
+            "sha-256": "e55358b7c87bfebdcdae7e0acc4609c93703f3c8c805f79c422ebe83c634f8de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcollection.h"
+          },
+          "hashes": {
+            "sha-256": "470a70c7b80b119efb4fc06ad92e42075416fabbbfab8c8fb9c6c4c62c486b36"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkvolumecollection.h"
+          },
+          "hashes": {
+            "sha-256": "314feff071dc07de6d3108c8774a7ffc06e8697e040e3aaeb55e28e3ffbd0fc5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkvolume.h"
+          },
+          "hashes": {
+            "sha-256": "be78647f3a9cffa9b37f6e0c1137643eb78430e7665feb355a0e53933b33779e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrenderwindow.h"
+          },
+          "hashes": {
+            "sha-256": "0bf8872aa9465a74afa4654ba79f867ff015f98a4ec7ffcdd2b1a830d18ed155"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkwindow.h"
+          },
+          "hashes": {
+            "sha-256": "c196534228230fb1b3e3463fa2b6db6577538b2704df7cec06ece99f79facc58"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrenderwindowinteractor.h"
+          },
+          "hashes": {
+            "sha-256": "e25b35623f02d0232aaadf5c72d586ae64b16b81617547fa943d02591ddd3660"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkorientationmarkerwidget.h"
+          },
+          "hashes": {
+            "sha-256": "f224be00f845a9865ec2265b692396050d9b7e6f9edd2ddbf00999a30382af06"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkinteractionwidgetsmodule.h"
+          },
+          "hashes": {
+            "sha-256": "6ecd5a726ab5c20ff3ea7ed16f8f31a60d54e545b58b350d24a0c7c11b9183a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkinteractorobserver.h"
+          },
+          "hashes": {
+            "sha-256": "437fe72b0bc1f531a9c57a2a8e1addde32c0d4e859ba201d8db319274613a775"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkautoinit.h"
+          },
+          "hashes": {
+            "sha-256": "4e430a31bb8312fd4d6fc95be0c623d8fc32db3930371cde9dd39bf80fa22267"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkproperty.h"
+          },
+          "hashes": {
+            "sha-256": "3489bd69afa239b301d9f21f4e90b5093c6f7819d64c841f128a5871d9d82548"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcamera.h"
+          },
+          "hashes": {
+            "sha-256": "dbb38646d58f497c776143350603853065029d0495aec4a14eca2b947aa4a9d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrect.h"
+          },
+          "hashes": {
+            "sha-256": "6ac5b2afbdf93e3af6f2c0062f17862ce4e98217bb98a8b18d795815334da0e8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkvector.h"
+          },
+          "hashes": {
+            "sha-256": "9d85df02b9a67751dcea0664d818042eadbce1faa717f7363a09577b6bd35a4b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktuple.h"
+          },
+          "hashes": {
+            "sha-256": "50047780a1bca7940e78623eb7311752f8b4275badbfa6fde368ade3b2558ec8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkinteractorstyletrackballcamera.h"
+          },
+          "hashes": {
+            "sha-256": "0d3fa7785d23e79710b0bd1b3165c94072e41d092c5895795d0d8e97dff82ed3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkinteractionstylemodule.h"
+          },
+          "hashes": {
+            "sha-256": "6b25fd070b8588cdfe54220f230c94d6b90b83b4c4d25518c4f1bac4ed547d18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkinteractorstyle.h"
+          },
+          "hashes": {
+            "sha-256": "7e89b2d310283d018a29014d93cb0c27a04faf00c33c48ada3b3a9d10a789cbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkannotatedcubeactor.h"
+          },
+          "hashes": {
+            "sha-256": "bc62376d7722ecd221af79fefd9669ca8eca7c347d7decd7b5b2fa60dc48b330"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrenderingannotationmodule.h"
+          },
+          "hashes": {
+            "sha-256": "4614f85bde861f16386a261a2761df4fd6bd67576f34f4ecb1d3887b2979cfa8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkspheresource.h"
+          },
+          "hashes": {
+            "sha-256": "2d351135363c7b912b062a636d8e8952475d5e04281f80eabcb6350e5214fa1c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkfilterssourcesmodule.h"
+          },
+          "hashes": {
+            "sha-256": "7238b2b96d0c6c9f3085311ae452d269c99f8e13b8b17a160347f72691714ca9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkpolydataalgorithm.h"
+          },
+          "hashes": {
+            "sha-256": "13a188a7a48b6fd0c9b40ab9b6b97ae38d79a822369565a3ba120b5b41c44821"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkaxesactor.h"
+          },
+          "hashes": {
+            "sha-256": "c235b0ecdf5cdf53d29003e96d7027c4240e0e1ebad84c83845d6f26be3f20ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdisksource.h"
+          },
+          "hashes": {
+            "sha-256": "43581e7600a2ec09ee34706596b6152b9fa77718b0c87472f4f19d99a04fdd20"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcaptionactor2d.h"
+          },
+          "hashes": {
+            "sha-256": "435d7959f61304914ebb000210c2ec85501ed0ecc5217c49ee8ae8a93d954574"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkactor2d.h"
+          },
+          "hashes": {
+            "sha-256": "7ff26982e0989c8aae4262c4b4bf9d975e522d173a0057cc5b8c48a3fe9059f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcoordinate.h"
+          },
+          "hashes": {
+            "sha-256": "f2a07d1621bda447e4545ceb275d5b5f0fe320e0a1540b6ad7c1e2437627789e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktextproperty.h"
+          },
+          "hashes": {
+            "sha-256": "ae7565ddb2373fb77a8d5144cab8585425a4effdb5f71aa34edfdf44c404320b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkhardwarepicker.h"
+          },
+          "hashes": {
+            "sha-256": "10368f2433322a1aef3e05ef62ee52e62f081c5428731701b9ad40794799f8bc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabstractproppicker.h"
+          },
+          "hashes": {
+            "sha-256": "86ca28ac1ebdb967bdee7d91a26e0e1f6eb5082d4d3e43c3ffcc5da0c29a7902"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabstractpicker.h"
+          },
+          "hashes": {
+            "sha-256": "44ca52d26b187a29d8799f8c36120a68328650a49ded5b0504c57cae309907fb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktextactor.h"
+          },
+          "hashes": {
+            "sha-256": "2bcacea6640a2e18edbad8a42f91b18ec728253702c4d2cfc15248f5b9ea54cd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktexturedactor2d.h"
+          },
+          "hashes": {
+            "sha-256": "dbf8f322ead7a26faed1cf69ccd95421de903911c38dfd4fb65856a3ca5abb4e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksliderrepresentation2d.h"
+          },
+          "hashes": {
+            "sha-256": "718ce7443bd05d9f7d133f3a0fd62c7beb90aaf66f073d13710acda58cfe13c6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksliderrepresentation.h"
+          },
+          "hashes": {
+            "sha-256": "73df34d1e7cc6d3e930021408e5bd97e6aa238cd62cd4a7ad23703a3b4c9a12d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtklegacy.h"
+          },
+          "hashes": {
+            "sha-256": "aa90a64b14a84f1e0d3d1a27093e1f67280ae3d3a87c12884431e1e91275265f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkwidgetrepresentation.h"
+          },
+          "hashes": {
+            "sha-256": "3aa59b8050245038e1254b4528cee7ae10325a2ed6004dd8407286747efc8e00"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkproperty2d.h"
+          },
+          "hashes": {
+            "sha-256": "9804bdbe26c58b9ffae58e818461e5b5ab9db7c6ef5e720e33f8214f6a91172e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksliderwidget.h"
+          },
+          "hashes": {
+            "sha-256": "bb2ce623ece6759a2b6ef9bacec806e4c11d78bbf89361b4ad1e7522bbd07229"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabstractwidget.h"
+          },
+          "hashes": {
+            "sha-256": "bf7b1e004e0aa81070d76b29480ae28b4946681f03c0f0c5b4e2245e9a9fe81c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkplanesource.h"
+          },
+          "hashes": {
+            "sha-256": "1afc93f7c03d20481ea35df1343e5491dff3bbb26b68251a68ff332c45c2839d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkplanewidget.h"
+          },
+          "hashes": {
+            "sha-256": "43ecb01a62b4457cdbb6e1f76015b2ba93ca32c52ff439dbfad79870390dc67b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkpolydatasourcewidget.h"
+          },
+          "hashes": {
+            "sha-256": "6c1f264f00d794efbf3329263509708f4fb1a1d65b1a5a21c98ea9dbc82cc27c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtk3dwidget.h"
+          },
+          "hashes": {
+            "sha-256": "12fc9c0ceee9fd9b8dddbf93163718cbec80d26cef57202857b62111de062d95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktexturedbuttonrepresentation2d.h"
+          },
+          "hashes": {
+            "sha-256": "5573cc7250246fa1dc3761fc9eb7681f26dad91f13ff14526721cdce0afceb95"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkbuttonrepresentation.h"
+          },
+          "hashes": {
+            "sha-256": "ff92f4839ad203285c0e4c8e92f373665ab788c0a717446da6c2b5715e370de9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkbuttonwidget.h"
+          },
+          "hashes": {
+            "sha-256": "a9a7716c68948ed204d8982468cbd31f1e6d730b0517c72ad106a41fa6d51a40"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkimagedata.h"
+          },
+          "hashes": {
+            "sha-256": "62dddcf40304f4bd9d5b42b12068bc43c2ea3a766d48b742829dc0238918a878"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkstructureddata.h"
+          },
+          "hashes": {
+            "sha-256": "b58d7d306439e06b7c790439d6a7e7dc3671b8d9506cd52982b9b8293146a6ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkfreetypetools.h"
+          },
+          "hashes": {
+            "sha-256": "a1fe90244f18fce719e9161ae1fffc5054936c698dc74ffa3c60fe8e7a651cf7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrenderingfreetypemodule.h"
+          },
+          "hashes": {
+            "sha-256": "be230f64758a9d6475dcdcdaa89f1a0c28d5868898b72c4a12f673c87114844a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtktextrenderer.h"
+          },
+          "hashes": {
+            "sha-256": "a33a3ce833b507c3a162205ccd5f61a3c93845b5cbe3facf8adb771f60992149"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtk_freetype.h"
+          },
+          "hashes": {
+            "sha-256": "2ab2c64a343c0704209eb42d9530a324c29d3361bc72079cfc41f0353e5f99a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/ft2build.h"
+          },
+          "hashes": {
+            "sha-256": "4a03081962780f1bebda042fb9b4aeef59661efd6f31eebcf0a6762dab2d7418"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/config/ftheader.h"
+          },
+          "hashes": {
+            "sha-256": "a108f40ae2861dbf363b247317a79b182018ea6a5e6aa51bcdf94ffd455139f7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/freetype.h"
+          },
+          "hashes": {
+            "sha-256": "0139c4e8980c03d72eb98488703d1097ca9d9bb4814aaed0a864483fbfe0c574"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/config/ftconfig.h"
+          },
+          "hashes": {
+            "sha-256": "b40442f2faedfd21a815725b97fe73e36f0e2ad1974e5f45038302a774cacd22"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/config/ftoption.h"
+          },
+          "hashes": {
+            "sha-256": "5c55b8fcb3ffe711325c67a5e7ab1e77f492414ff8dd25da555f724ffff8f654"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/config/ftstdlib.h"
+          },
+          "hashes": {
+            "sha-256": "50cd64ed4fd37fc55424f8e2ffb4c2b7be1eae3e99a9be476744e41a48e33f28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/config/integer-types.h"
+          },
+          "hashes": {
+            "sha-256": "ceeb1668232498bdb626a41f81aecf861b90f486a907339bd4a7802fce8adfb8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/config/public-macros.h"
+          },
+          "hashes": {
+            "sha-256": "952868dcbafda89f7a0d5a183dec5cc9e51df80cd6bc14d0de0ff1efbf810203"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/config/mac-support.h"
+          },
+          "hashes": {
+            "sha-256": "edfff8664d9db28252f36f7a317d5955caac02c3c339e27645acc394567963bd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/fttypes.h"
+          },
+          "hashes": {
+            "sha-256": "62c9af68d390a6c9d1b4f4ddace7a258dcebafa56fc35a41f407366b24d158ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/ftsystem.h"
+          },
+          "hashes": {
+            "sha-256": "d9553b76be3d258d7b80f439ec14dee5f7bb47dd3d796aafcce3781a0731a048"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/ftimage.h"
+          },
+          "hashes": {
+            "sha-256": "6e205ce3792bc3a4f06ea3e217e19d71e6f024b880efa009ba45f27839c4ba5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/fterrors.h"
+          },
+          "hashes": {
+            "sha-256": "de6b792f90a81ef8e68a5138401e58ce7b69c33da88e844b6c01147ed1cb574f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/ftmoderr.h"
+          },
+          "hashes": {
+            "sha-256": "59e384834592dae9a8ebd2879da1d3b381a829ad0608f0469595492326a21ce0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/fterrdef.h"
+          },
+          "hashes": {
+            "sha-256": "2855d8caefb0fb36794269c340f492bc34dafbcbc56864bbe641f854ebf8da0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/ftglyph.h"
+          },
+          "hashes": {
+            "sha-256": "f961296de35e5d0d2cc913ea9da5a239bb53dfbd36daa6ac6ab79a76e96af533"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freetype/ftcache.h"
+          },
+          "hashes": {
+            "sha-256": "d5763f54bf75aded425b1dc9f76f911d2602ed81cfee7982b73c77600a4450e1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkimagecanvassource2d.h"
+          },
+          "hashes": {
+            "sha-256": "d50fc042cf8241de60845a51deb8a2d7d4cf154b5b31c4101a9a38c9c753dc8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkimagealgorithm.h"
+          },
+          "hashes": {
+            "sha-256": "0d2a335a4a65e491cf1251841bbad7fafbc7d2c2e3cbff6ddd829178176b6d45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkimagingsourcesmodule.h"
+          },
+          "hashes": {
+            "sha-256": "d5b54f57f467058cea949c76f2d3b6bb2f411d3545e94e85e520e89f5197d62e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkopenglrenderwindow.h"
+          },
+          "hashes": {
+            "sha-256": "b43e23e6a9abc5dd572a98acfe2787ad2e55736c8589bd40df5df3827448bb2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrenderingopengl2module.h"
+          },
+          "hashes": {
+            "sha-256": "c40cfc217494a7ac5fd21c09c133ec0c46bfc48cbf7edda24fa5bffe013c3947"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkioimagemodule.h"
+          },
+          "hashes": {
+            "sha-256": "6632fb93f84d68d583e46c6bfc9f49d6f6f53a513e89e991fe6c83453b382328"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrenderinghypertreegridmodule.h"
+          },
+          "hashes": {
+            "sha-256": "0512c6161ed0a6284b1b745d4ad6358b59359bf19253ea1df5af23c6084423b2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkrenderinguimodule.h"
+          },
+          "hashes": {
+            "sha-256": "609e3dbb906adab83e4178cb52f601706770a51c4297d8a0e308b8317710b594"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkwin32openglrenderwindow.h"
+          },
+          "hashes": {
+            "sha-256": "33d36d2267967f9318f3009fc7d840327aa028b9ea896971d17d9b9ab70bbac8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkwindows.h"
+          },
+          "hashes": {
+            "sha-256": "49f2b6ace9b47d1ee23e7a317a5e33ed7b62ac0676afe0da41a618030f2ffba9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksplinewidget.h"
+          },
+          "hashes": {
+            "sha-256": "cc49eac66ba0607267594fe0eeb4a2f874b5a2040a61debad12a2ae93868d957"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksplinewidget2.h"
+          },
+          "hashes": {
+            "sha-256": "c0e2bd289ea3eadd0a9100fd0e67a5790d0da8412fc633f538297d8e76e7a597"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksplinerepresentation.h"
+          },
+          "hashes": {
+            "sha-256": "31107f6bae4112349e1db938f0d915e143f278b3572e04054e799951b66065ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabstractsplinerepresentation.h"
+          },
+          "hashes": {
+            "sha-256": "03622153674bb00b5a99e4a2877409cca235b14134470078a491ba470bd6a5e6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcurverepresentation.h"
+          },
+          "hashes": {
+            "sha-256": "b4dff7b9f21e7592b0212a4d73dfc742417ee29c0d37bc54eb39f1cffda88aaf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkkochanekspline.h"
+          },
+          "hashes": {
+            "sha-256": "f38907f55e1253ee9f02114310438dc7e6194b38030f319cd19497168eda60c7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcommoncomputationalgeometrymodule.h"
+          },
+          "hashes": {
+            "sha-256": "e7ce75a445f4e329a0899c1cd54ee54c66fe9caf6f3188cfb4740ca0a0a94697"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkspline.h"
+          },
+          "hashes": {
+            "sha-256": "f1ee49c13c1b612959db8c52fddf8af8c0a7c7f69b542e3f7e1d5871b3029c15"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtknamedcolors.h"
+          },
+          "hashes": {
+            "sha-256": "201d36edbe1efbbd8d45fb8f5fe31c5655ff1ebd0a73f2d7444b1935297f4a9f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcolor.h"
+          },
+          "hashes": {
+            "sha-256": "7c9cdba9e59c10b071e2380b410f15076cb0bdb84f4cb55ec01dd26d8e8ab196"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcommoncolormodule.h"
+          },
+          "hashes": {
+            "sha-256": "e609474e34647554f72ef03b947dac89159c91734aba8e0f6b015091c01fda39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkstringarray.h"
+          },
+          "hashes": {
+            "sha-256": "49b10cddb4dc8910a326139f35e25bdc5dcefa4f79f9f0992ed8c48ff86fa592"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcallbackcommand.h"
+          },
+          "hashes": {
+            "sha-256": "6332a48011dc8a2c8d7678887e01fd4d5f67f0a3fe4a5527ab7ec21e6a029474"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcameraorientationwidget.h"
+          },
+          "hashes": {
+            "sha-256": "d0a927abbc84507b25b734c7912a045d7920ab83a6e80c5db486763ea66c403a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdoublearray.h"
+          },
+          "hashes": {
+            "sha-256": "3ebe47e2ba909fca03ef72f1ce374a3d68685d0abc6a56a6774913f6abef2a1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcameraorientationrepresentation.h"
+          },
+          "hashes": {
+            "sha-256": "a423c4edef127b5f148efd8a72e1199200423f6ecc7e9d4a41de22dcf5f12042"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkpolydataconnectivityfilter.h"
+          },
+          "hashes": {
+            "sha-256": "9c069ed08ebee38a93ef9928f232b3b3c892b6f4e94a2d6879c1e2fff083e219"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkcelldata.h"
+          },
+          "hashes": {
+            "sha-256": "6db50f3b1003cbd6300449042cbace8c7781e76585478258a9413469aafb6e16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdatasetattributes.h"
+          },
+          "hashes": {
+            "sha-256": "276f86484b5a13a054ac083e9cb2bf84b24f01a78cbb4210a6c9c920dd536c4f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkdatasetattributesfieldlist.h"
+          },
+          "hashes": {
+            "sha-256": "ac3475ae4ceb9789780dedfbbf249a8dbd84a0118988f7993f27e61765b18fa5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkfielddata.h"
+          },
+          "hashes": {
+            "sha-256": "f70035fa22fa6b3378fdd8fef14af4bffae17578adc17cb0b641f38346971f6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkstlreader.h"
+          },
+          "hashes": {
+            "sha-256": "45155803dfc7e20084628a6bb0a137d8989fc661aa70078fa3b8bd5d3fe108ab"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkabstractpolydatareader.h"
+          },
+          "hashes": {
+            "sha-256": "34c97add14a96fe1e15cdf8a26236bb42a3085a22485ae0171f6a9aea2698551"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkiocoremodule.h"
+          },
+          "hashes": {
+            "sha-256": "2763606ecbb432e3f94f370f0c9772535d327779f7a1e66defd257d81396e443"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkiogeometrymodule.h"
+          },
+          "hashes": {
+            "sha-256": "822939086539ad1c6d8a9990169607fe04db7789c8bafe865e078bac29bc0ef6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkstlwriter.h"
+          },
+          "hashes": {
+            "sha-256": "b9d2636a944fddd06ca428a556f38201b3dec0e60b13b9605f7a3f79ca972f6c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkwriter.h"
+          },
+          "hashes": {
+            "sha-256": "dd0d42d9806dec3e6bba3e2183af27a48c6b09c647f5c1f54be6ce6b8eecf8a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkglyph3d.h"
+          },
+          "hashes": {
+            "sha-256": "830f88eded5d2270153df5cfc9523628740a44ed5c864d6a847f50480c0c38de"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkvertexglyphfilter.h"
+          },
+          "hashes": {
+            "sha-256": "2a3c0bbe4f1af65eaa66ddf36d8ef12ade80abf925864394083ac0cfbd438378"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkfiltersgeneralmodule.h"
+          },
+          "hashes": {
+            "sha-256": "aa1672e0e2606211570bf80da4b276d307cf79dbe0091a3f152f4b1f3a104f04"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkfloatarray.h"
+          },
+          "hashes": {
+            "sha-256": "06f49f1a98194e285913c602d1cee89039d7ae1d323fffec9253cf583ab96129"
+          }
+        }
+      ]
+    }
+  ]
+}
