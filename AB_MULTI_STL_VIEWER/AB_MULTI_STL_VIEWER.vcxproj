@@ -159,7 +159,14 @@
     <ClCompile Include="AB_MULTI_STL_VIEWER.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Holders_STL.h" />
     <ClInclude Include="rang.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="dental.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

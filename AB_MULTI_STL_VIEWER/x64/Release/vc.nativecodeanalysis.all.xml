@@ -152,28 +152,18 @@
   </DEFECT><DEFECT>
     <SFA>
       <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkVariantInlineOperators.h</FILENAME>
-      <LINE>20</LINE>
-      <COLUMN>41</COLUMN>
-    </SFA>
-    <DEFECTCODE>6287</DEFECTCODE>
-    <DESCRIPTION>Redundant code.</DESCRIPTION>
-    <FUNCTION>IsSigned64Bit</FUNCTION>
-    <DECORATED>?IsSigned64Bit@@YA_NH@Z</DECORATED>
-    <FUNCLINE>18</FUNCLINE>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkPolyDataInternals.h</FILENAME>
-      <LINE>111</LINE>
+      <FILENAME>vtkCommand.h</FILENAME>
+      <LINE>463</LINE>
       <COLUMN>2</COLUMN>
     </SFA>
-    <DEFECTCODE>26828</DEFECTCODE>
-    <DESCRIPTION>Different enum types have overlapping values. Did you want to use another enum constant here?.</DESCRIPTION>
-    <FUNCTION>vtkPolyData_detail::GenTargetVar</FUNCTION>
-    <DECORATED>?GenTargetVar@vtkPolyData_detail@@YAEW4Target@1@W4TypeVariant@1@@Z</DECORATED>
-    <FUNCLINE>109</FUNCLINE>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkCommand::AbortFlag' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkCommand::{ctor}</FUNCTION>
+    <DECORATED>??0vtkCommand@@IEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>463</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkCommand::AbortFlag</targetSymbol>
+    </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
@@ -194,22 +184,6 @@
   </DEFECT><DEFECT>
     <SFA>
       <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkCommand.h</FILENAME>
-      <LINE>463</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkCommand::AbortFlag' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkCommand::{ctor}</FUNCTION>
-    <DECORATED>??0vtkCommand@@IEAA@AEBV0@@Z</DECORATED>
-    <FUNCLINE>463</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtkCommand::AbortFlag</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
       <FILENAME>vtkEventData.h</FILENAME>
       <LINE>76</LINE>
       <COLUMN>2</COLUMN>
@@ -221,38 +195,6 @@
     <FUNCLINE>76</FUNCLINE>
     <ADDITIONALINFO>
       <targetSymbol>vtkEventData::Type</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkEventData.h</FILENAME>
-      <LINE>229</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldOrientation' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
-    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
-    <FUNCLINE>229</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtkEventDataDevice3D::WorldOrientation</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkEventData.h</FILENAME>
-      <LINE>229</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkEventDataDevice3D::TrackPadPosition' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
-    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
-    <FUNCLINE>229</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtkEventDataDevice3D::TrackPadPosition</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -290,6 +232,407 @@
   </DEFECT><DEFECT>
     <SFA>
       <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkEventData.h</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkEventDataDevice3D::TrackPadPosition' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
+    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkEventDataDevice3D::TrackPadPosition</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkEventData.h</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldOrientation' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
+    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkEventDataDevice3D::WorldOrientation</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkVariantInlineOperators.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>6287</DEFECTCODE>
+    <DESCRIPTION>Redundant code.</DESCRIPTION>
+    <FUNCTION>IsSigned64Bit</FUNCTION>
+    <DECORATED>?IsSigned64Bit@@YA_NH@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkPolyDataInternals.h</FILENAME>
+      <LINE>111</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26828</DEFECTCODE>
+    <DESCRIPTION>Different enum types have overlapping values. Did you want to use another enum constant here?.</DESCRIPTION>
+    <FUNCTION>vtkPolyData_detail::GenTargetVar</FUNCTION>
+    <DECORATED>?GenTargetVar@vtkPolyData_detail@@YAEW4Target@1@W4TypeVariant@1@@Z</DECORATED>
+    <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\Eigen\src\Core\arch\SSE\</FILEPATH>
+      <FILENAME>Complex.h</FILENAME>
+      <LINE>20</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Eigen::internal::Packet2cf::v' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Eigen::internal::Packet2cf::{ctor}</FUNCTION>
+    <DECORATED>??0Packet2cf@internal@Eigen@@QEAA@XZ</DECORATED>
+    <FUNCLINE>20</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Eigen::internal::Packet2cf::v</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\Eigen\src\Core\arch\SSE\</FILEPATH>
+      <FILENAME>Complex.h</FILENAME>
+      <LINE>188</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Eigen::internal::Packet1cd::v' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Eigen::internal::Packet1cd::{ctor}</FUNCTION>
+    <DECORATED>??0Packet1cd@internal@Eigen@@QEAA@XZ</DECORATED>
+    <FUNCLINE>188</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Eigen::internal::Packet1cd::v</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Intersections_2\</FILEPATH>
+      <FILENAME>Segment_2_Segment_2.h</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::Intersections::internal::S2S2_inter_info::config' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::Intersections::internal::S2S2_inter_info::{ctor}</FUNCTION>
+    <DECORATED>??0S2S2_inter_info@internal@Intersections@CGAL@@QEAA@H@Z</DECORATED>
+    <FUNCLINE>78</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::Intersections::internal::S2S2_inter_info::config</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Intersections_2\</FILEPATH>
+      <FILENAME>Segment_2_Segment_2.h</FILENAME>
+      <LINE>85</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::Intersections::internal::S2S2_inter_info::config' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::Intersections::internal::S2S2_inter_info::{ctor}</FUNCTION>
+    <DECORATED>??0S2S2_inter_info@internal@Intersections@CGAL@@QEAA@HH@Z</DECORATED>
+    <FUNCLINE>85</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::Intersections::internal::S2S2_inter_info::config</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Intersections_2\internal\</FILEPATH>
+      <FILENAME>Straight_2.h</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::main_dir_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::Intersections::internal::Straight_2_base_::{ctor}</FUNCTION>
+    <DECORATED>??0Straight_2_base_@internal@Intersections@CGAL@@IEAA@XZ</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::main_dir_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Intersections_2\internal\</FILEPATH>
+      <FILENAME>Straight_2.h</FILENAME>
+      <LINE>74</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::dir_sign_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::Intersections::internal::Straight_2_base_::{ctor}</FUNCTION>
+    <DECORATED>??0Straight_2_base_@internal@Intersections@CGAL@@IEAA@XZ</DECORATED>
+    <FUNCLINE>74</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::dir_sign_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\</FILEPATH>
+      <FILENAME>Random.h</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::Random::State::random_value' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::Random::State::{ctor}</FUNCTION>
+    <DECORATED>??0State@Random@CGAL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::Random::State::random_value</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\</FILEPATH>
+      <FILENAME>Random.h</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::Random::State::seed' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::Random::State::{ctor}</FUNCTION>
+    <DECORATED>??0State@Random@CGAL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::Random::State::seed</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\</FILEPATH>
+      <FILENAME>Random.h</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::Random::State::val' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::Random::State::{ctor}</FUNCTION>
+    <DECORATED>??0State@Random@CGAL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::Random::State::val</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\IO\OFF\</FILEPATH>
+      <FILENAME>File_header_extended_OFF_impl.h</FILENAME>
+      <LINE>58</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>6297</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow.  Results might not be an expected value.</DESCRIPTION>
+    <FUNCTION>CGAL::File_header_extended_OFF::is_CBPn</FUNCTION>
+    <DECORATED>?is_CBPn@File_header_extended_OFF@CGAL@@QEBAHXZ</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\IO\OFF\</FILEPATH>
+      <FILENAME>File_header_OFF_impl.h</FILENAME>
+      <LINE>202</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26437</DEFECTCODE>
+    <DESCRIPTION>Do not slice (es.63).</DESCRIPTION>
+    <FUNCTION>CGAL::File_header_OFF::+=</FUNCTION>
+    <DECORATED>??YFile_header_OFF@CGAL@@QEAAAEAV01@AEBV01@@Z</DECORATED>
+    <FUNCLINE>201</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\IO\OFF\</FILEPATH>
+      <FILENAME>File_scanner_OFF.h</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::File_scanner_OFF::color_entries' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::File_scanner_OFF::{ctor}</FUNCTION>
+    <DECORATED>??0File_scanner_OFF@CGAL@@QEAA@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@_N@Z</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::File_scanner_OFF::color_entries</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\IO\OFF\</FILEPATH>
+      <FILENAME>File_scanner_OFF.h</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::File_scanner_OFF::first_color_index' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::File_scanner_OFF::{ctor}</FUNCTION>
+    <DECORATED>??0File_scanner_OFF@CGAL@@QEAA@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@_N@Z</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::File_scanner_OFF::first_color_index</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\IO\OFF\</FILEPATH>
+      <FILENAME>File_scanner_OFF.h</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::File_scanner_OFF::color_entries' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::File_scanner_OFF::{ctor}</FUNCTION>
+    <DECORATED>??0File_scanner_OFF@CGAL@@QEAA@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEBVFile_header_OFF@1@@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::File_scanner_OFF::color_entries</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\IO\OFF\</FILEPATH>
+      <FILENAME>File_scanner_OFF.h</FILENAME>
+      <LINE>55</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::File_scanner_OFF::first_color_index' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::File_scanner_OFF::{ctor}</FUNCTION>
+    <DECORATED>??0File_scanner_OFF@CGAL@@QEAA@AEAV?$basic_istream@DU?$char_traits@D@std@@@std@@AEBVFile_header_OFF@1@@Z</DECORATED>
+    <FUNCLINE>55</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::File_scanner_OFF::first_color_index</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\IO\OI\</FILEPATH>
+      <FILENAME>File_writer_inventor.h</FILENAME>
+      <LINE>32</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::File_writer_inventor::m_facets' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::File_writer_inventor::{ctor}</FUNCTION>
+    <DECORATED>??0File_writer_inventor@CGAL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>32</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::File_writer_inventor::m_facets</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Surface_mesh\</FILEPATH>
+      <FILENAME>Surface_mesh.h</FILENAME>
+      <LINE>78</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26498</DEFECTCODE>
+    <DESCRIPTION>The function 'std::numeric_limits&lt;unsigned int&gt;::max' is constexpr, mark variable 'inf' constexpr if compile-time evaluation is desired (con.5).</DESCRIPTION>
+    <FUNCTION>CGAL::SM_Index&lt;CGAL::SM_Halfedge_index&gt;::is_valid</FUNCTION>
+    <DECORATED>?is_valid@?$SM_Index@VSM_Halfedge_index@CGAL@@@CGAL@@QEBA_NXZ</DECORATED>
+    <FUNCLINE>77</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\Eigen\src\Core\</FILEPATH>
+      <FILENAME>GenericPacketMath.h</FILENAME>
+      <LINE>163</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Eigen::internal::eigen_packet_wrapper&lt;__m128i,0&gt;::m_val' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Eigen::internal::eigen_packet_wrapper&lt;__m128i,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$eigen_packet_wrapper@T__m128i@@$0A@@internal@Eigen@@QEAA@XZ</DECORATED>
+    <FUNCLINE>163</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Eigen::internal::eigen_packet_wrapper&lt;__m128i,0&gt;::m_val</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\boost\optional\</FILEPATH>
+      <FILENAME>optional.hpp</FILENAME>
+      <LINE>148</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'boost::optional_detail::optional_base&lt;boost::variant&lt;CGAL::Bbox_3&gt; &gt;::m_storage' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>boost::optional_detail::optional_base&lt;boost::variant&lt;CGAL::Bbox_3&gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$optional_base@V?$variant@VBbox_3@CGAL@@$$V@boost@@@optional_detail@boost@@IEAA@XZ</DECORATED>
+    <FUNCLINE>148</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>boost::optional_detail::optional_base&lt;boost::variant&lt;CGAL::Bbox_3&gt; &gt;::m_storage</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\boost\graph\</FILEPATH>
+      <FILENAME>iterator.h</FILENAME>
+      <LINE>390</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::Halfedge_around_face_iterator&lt;CGAL::Surface_mesh&lt;CGAL::Point_3&lt;CGAL::Simple_cartesian&lt;double&gt; &gt; &gt; &gt;::winding' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::Halfedge_around_face_iterator&lt;CGAL::Surface_mesh&lt;CGAL::Point_3&lt;CGAL::Simple_cartesian&lt;double&gt; &gt; &gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Halfedge_around_face_iterator@V?$Surface_mesh@V?$Point_3@U?$Simple_cartesian@N@CGAL@@@CGAL@@@CGAL@@@CGAL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>390</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::Halfedge_around_face_iterator&lt;CGAL::Surface_mesh&lt;CGAL::Point_3&lt;CGAL::Simple_cartesian&lt;double&gt; &gt; &gt; &gt;::winding</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\Eigen\src\Core\</FILEPATH>
+      <FILENAME>DenseStorage.h</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Eigen::internal::plain_array&lt;double,16,0,16&gt;::array' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Eigen::internal::plain_array&lt;double,16,0,16&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$plain_array@N$0BA@$0A@$0BA@@internal@Eigen@@QEAA@XZ</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Eigen::internal::plain_array&lt;double,16,0,16&gt;::array</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\Eigen\src\Core\</FILEPATH>
+      <FILENAME>DenseStorage.h</FILENAME>
+      <LINE>107</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Eigen::internal::plain_array&lt;double,4,0,16&gt;::array' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Eigen::internal::plain_array&lt;double,4,0,16&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$plain_array@N$03$0A@$0BA@@internal@Eigen@@QEAA@XZ</DECORATED>
+    <FUNCLINE>107</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Eigen::internal::plain_array&lt;double,4,0,16&gt;::array</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
       <FILENAME>vtkMatrixUtilities.h</FILENAME>
       <LINE>140</LINE>
       <COLUMN>93</COLUMN>
@@ -299,5 +642,121 @@
     <FUNCTION>vtkMatrixUtilities::MatrixLayoutIs2D</FUNCTION>
     <DECORATED>??$MatrixLayoutIs2D@PEAY02M@vtkMatrixUtilities@@YA_NXZ</DECORATED>
     <FUNCLINE>128</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Cartesian\</FILEPATH>
+      <FILENAME>Vector_3.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::VectorC3&lt;CGAL::Simple_cartesian&lt;double&gt; &gt;::base' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::VectorC3&lt;CGAL::Simple_cartesian&lt;double&gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorC3@U?$Simple_cartesian@N@CGAL@@@CGAL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::VectorC3&lt;CGAL::Simple_cartesian&lt;double&gt; &gt;::base</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\Eigen\src\Core\</FILEPATH>
+      <FILENAME>DenseStorage.h</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Eigen::internal::plain_array&lt;double,3,0,0&gt;::array' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Eigen::internal::plain_array&lt;double,3,0,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$plain_array@N$02$0A@$0A@@internal@Eigen@@QEAA@XZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Eigen::internal::plain_array&lt;double,3,0,0&gt;::array</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Cartesian\</FILEPATH>
+      <FILENAME>Vector_2.h</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::VectorC2&lt;CGAL::Simple_cartesian&lt;double&gt; &gt;::base' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::VectorC2&lt;CGAL::Simple_cartesian&lt;double&gt; &gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$VectorC2@U?$Simple_cartesian@N@CGAL@@@CGAL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::VectorC2&lt;CGAL::Simple_cartesian&lt;double&gt; &gt;::base</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Surface_mesh\</FILEPATH>
+      <FILENAME>Surface_mesh.h</FILENAME>
+      <LINE>989</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26498</DEFECTCODE>
+    <DESCRIPTION>The function 'std::numeric_limits&lt;unsigned int&gt;::max' is constexpr, mark variable 'inf' constexpr if compile-time evaluation is desired (con.5).</DESCRIPTION>
+    <FUNCTION>CGAL::Surface_mesh&lt;CGAL::Point_3&lt;CGAL::Simple_cartesian&lt;double&gt; &gt; &gt;::add_vertex</FUNCTION>
+    <DECORATED>?add_vertex@?$Surface_mesh@V?$Point_3@U?$Simple_cartesian@N@CGAL@@@CGAL@@@CGAL@@QEAA?AVSM_Vertex_index@2@XZ</DECORATED>
+    <FUNCLINE>987</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\boost\random\</FILEPATH>
+      <FILENAME>uniform_int_distribution.hpp</FILENAME>
+      <LINE>60</LINE>
+      <COLUMN>22</COLUMN>
+    </SFA>
+    <DEFECTCODE>26498</DEFECTCODE>
+    <DESCRIPTION>The function 'boost::random::rand48::min' is constexpr, mark variable 'bmin' constexpr if compile-time evaluation is desired (con.5).</DESCRIPTION>
+    <FUNCTION>boost::random::detail::generate_uniform_int</FUNCTION>
+    <DECORATED>??$generate_uniform_int@Vrand48@random@boost@@H@detail@random@boost@@YAHAEAVrand48@12@HHU?$integral_constant@_N$00@2@@Z</DECORATED>
+    <FUNCLINE>50</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Surface_mesh\</FILEPATH>
+      <FILENAME>Surface_mesh.h</FILENAME>
+      <LINE>1060</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26498</DEFECTCODE>
+    <DESCRIPTION>The function 'std::numeric_limits&lt;unsigned int&gt;::max' is constexpr, mark variable 'inf' constexpr if compile-time evaluation is desired (con.5).</DESCRIPTION>
+    <FUNCTION>CGAL::Surface_mesh&lt;CGAL::Point_3&lt;CGAL::Simple_cartesian&lt;double&gt; &gt; &gt;::add_face</FUNCTION>
+    <DECORATED>?add_face@?$Surface_mesh@V?$Point_3@U?$Simple_cartesian@N@CGAL@@@CGAL@@@CGAL@@QEAA?AVSM_Face_index@2@XZ</DECORATED>
+    <FUNCLINE>1058</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\boost\optional\</FILEPATH>
+      <FILENAME>optional.hpp</FILENAME>
+      <LINE>148</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'boost::optional_detail::optional_base&lt;CGAL::SM_Halfedge_index&gt;::m_storage' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>boost::optional_detail::optional_base&lt;CGAL::SM_Halfedge_index&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$optional_base@VSM_Halfedge_index@CGAL@@@optional_detail@boost@@IEAA@XZ</DECORATED>
+    <FUNCLINE>148</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>boost::optional_detail::optional_base&lt;CGAL::SM_Halfedge_index&gt;::m_storage</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Surface_mesh\</FILEPATH>
+      <FILENAME>Surface_mesh.h</FILENAME>
+      <LINE>1021</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26498</DEFECTCODE>
+    <DESCRIPTION>The function 'std::numeric_limits&lt;unsigned int&gt;::max' is constexpr, mark variable 'inf' constexpr if compile-time evaluation is desired (con.5).</DESCRIPTION>
+    <FUNCTION>CGAL::Surface_mesh&lt;CGAL::Point_3&lt;CGAL::Simple_cartesian&lt;double&gt; &gt; &gt;::add_edge</FUNCTION>
+    <DECORATED>?add_edge@?$Surface_mesh@V?$Point_3@U?$Simple_cartesian@N@CGAL@@@CGAL@@@CGAL@@QEAA?AVSM_Halfedge_index@2@XZ</DECORATED>
+    <FUNCLINE>1018</FUNCLINE>
     <PATH></PATH>
   </DEFECT></DEFECTS>
