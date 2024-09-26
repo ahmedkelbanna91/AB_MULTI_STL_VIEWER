@@ -1,0 +1,4482 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'pGIF->config.pGlobalPalette' could be '0':  this does not adhere to the specification for the function 'memcpy'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 5,
+                  "endLine": 109,
+                  "endColumn": 101
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cgif_newgif",
+                  "decoratedName": "cgif_newgif",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 74,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 75,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 76,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'pConfig->path' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 95,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'pGIF==(((void *)0))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'config' is an Output from 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 55
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'config' is an In/Out argument to 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'pGIF->config.pGlobalPalette' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'pNewImageData+(((((uint32_t)i))*(((uint32_t)pResult->width))))' could be '0':  this does not adhere to the specification for the function 'memcpy'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                },
+                "region": {
+                  "startLine": 342,
+                  "startColumn": 5,
+                  "endLine": 342,
+                  "endColumn": 131
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "doWidthHeightOptim",
+                  "decoratedName": "doWidthHeightOptim",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 317,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 318,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 319,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 320,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 321,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 324,
+                            "startColumn": 65
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 328,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 331,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 340,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "'pNewImageData' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 341,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<pResult->height')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'pNewImageData' is an In/Out argument to 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 342,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'pNewImageData+(((((uint32_t)i))*(((uint32_t)pResult->width))))' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'pTmpImageData' could be '0':  this does not adhere to the specification for the function 'memcpy'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                },
+                "region": {
+                  "startLine": 411,
+                  "startColumn": 7,
+                  "endLine": 411,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "flushFrame",
+                  "decoratedName": "flushFrame",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 350,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 351,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 352,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 353,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 358,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 361,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 364,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 365,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 367,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 371,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 376,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 379,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 381,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 386,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 394,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 395,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 396,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 397,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 401,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 403,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 404,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 405,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 406,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 409,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 410,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmpImageData' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 411,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmpImageData' is an In/Out argument to 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 411,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmpImageData' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'pTmpImageData'. See line 411 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                },
+                "region": {
+                  "startLine": 416,
+                  "startColumn": 12,
+                  "endLine": 416,
+                  "endColumn": 154
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "flushFrame",
+                  "decoratedName": "flushFrame",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 350,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 351,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 352,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 353,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 358,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 361,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 364,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 365,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 367,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 371,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 376,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 379,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 381,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 386,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 394,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 395,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 396,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 397,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 401,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 403,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 404,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 405,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 406,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 409,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 410,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmpImageData' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 411,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmpImageData' is an In/Out argument to 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 413,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 414,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 414,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<height')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 415,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 415,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'x<width')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 151
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 151
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmpImageData' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'pTmpImageData'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                },
+                "region": {
+                  "startLine": 417,
+                  "startColumn": 11,
+                  "endLine": 417,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "flushFrame",
+                  "decoratedName": "flushFrame",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 350,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 351,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 352,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 353,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 37
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 354,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 355,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 48
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 63
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 356,
+                            "startColumn": 68
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 357,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 358,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 360,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 361,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 362,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 363,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 364,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 365,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 366,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 367,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 371,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 376,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 379,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 381,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 386,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 393,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 394,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 395,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 396,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 397,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 401,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 403,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 404,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 405,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 406,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 409,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 410,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmpImageData' is an array"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 411,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'pTmpImageData' is an In/Out argument to 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 413,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 414,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 414,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<height')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 415,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 415,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'x<width')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 151
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an In/Out argument to 'cmpPixel' (declared on line 141)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 151
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 417,
+                            "startColumn": 47
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 415,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 415,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Continue this loop, (assume 'x<width')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 151
+                          }
+                        },
+                        "message": {
+                          "text": "'i' is an In/Out argument to 'cmpPixel' (declared on line 141)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 416,
+                            "startColumn": 151
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume '<branch condition>')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 417,
+                            "startColumn": 47
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'pTmpImageData', (outside its writable range)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'pNewFrame'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                },
+                "region": {
+                  "startLine": 544,
+                  "startColumn": 3,
+                  "endLine": 544,
+                  "endColumn": 41
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cgif_addframe",
+                  "decoratedName": "cgif_addframe",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 469,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 471,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 472,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 475,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 478,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 479,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 482,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 487,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 493,
+                            "startColumn": 62
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 499,
+                            "startColumn": 33
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 528,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 543,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'pNewFrame' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 544,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'pNewFrame' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'pNewFrame->config.pImageData' could be '0':  this does not adhere to the specification for the function 'memcpy'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                },
+                "region": {
+                  "startLine": 546,
+                  "startColumn": 3,
+                  "endLine": 546,
+                  "endColumn": 61
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cgif_addframe",
+                  "decoratedName": "cgif_addframe",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 469,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 471,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 472,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 475,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 478,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 479,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 482,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'hasAlpha&&hasSetTransp' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 487,
+                            "startColumn": 60
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 493,
+                            "startColumn": 62
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 499,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 45
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 528,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'i==((3))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 543,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 544,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'config' is an Output from 'copyFrameConfig' (declared on line 454)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 545,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 546,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'config' is an In/Out argument to 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 546,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'pNewFrame->config.pImageData' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'pNewFrame->config.pLocalPalette' could be '0':  this does not adhere to the specification for the function 'memcpy'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                },
+                "region": {
+                  "startLine": 550,
+                  "startColumn": 5,
+                  "endLine": 550,
+                  "endColumn": 103
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cgif_addframe",
+                  "decoratedName": "cgif_addframe",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 469,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 471,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 472,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 475,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 478,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 479,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 482,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'hasAlpha&&hasSetTransp' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 487,
+                            "startColumn": 60
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 493,
+                            "startColumn": 62
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 499,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 45
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 528,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'i==((3))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 543,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 544,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'config' is an Output from 'copyFrameConfig' (declared on line 454)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 545,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 546,
+                            "startColumn": 3
+                          }
+                        },
+                        "message": {
+                          "text": "'config' is an In/Out argument to 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 548,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'pConfig->attrFlags')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 549,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 550,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'config' is an In/Out argument to 'memcpy' (declared at <no file>:0)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 550,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'pNewFrame->config.pLocalPalette' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Buffer overrun while writing to 'pGIF->aFrames'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                },
+                "region": {
+                  "startLine": 554,
+                  "startColumn": 3,
+                  "endLine": 554,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cgif_addframe",
+                  "decoratedName": "cgif_addframe",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 469,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 470,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 471,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 472,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 475,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 478,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 479,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 482,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'hasAlpha&&hasSetTransp' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 487,
+                            "startColumn": 60
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 493,
+                            "startColumn": 62
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 499,
+                            "startColumn": 33
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 525,
+                            "startColumn": 45
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this loop, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 528,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume 'i==((3))' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 543,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 544,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 545,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 546,
+                            "startColumn": 3
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 548,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'pConfig->attrFlags')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 549,
+                            "startColumn": 38
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 550,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 552,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 553,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+                          },
+                          "region": {
+                            "startLine": 554,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "Invalid write to 'pGIF->aFrames[4]', (writable range is 0 to 2)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/cgif/cgif.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "dd02aa10007283a0cfd1d9f3e015fb7a1409e3ae5e012ac36c803643c82d9668"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/msi-pc/desktop/dev/ab_multi_stl_viewer/ab_multi_stl_viewer/cgif/cgif.h"
+          },
+          "hashes": {
+            "sha-256": "4851d9be1598b43d66972ca18d867730a667a05af4a46a38587dcdd0ca90164b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/msi-pc/desktop/dev/ab_multi_stl_viewer/ab_multi_stl_viewer/cgif/cgif_raw.h"
+          },
+          "hashes": {
+            "sha-256": "b586df3493d968ec12f35c7b1f6521437929a279ead0b8f342357a2bc1fc42b9"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,58 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
     <SFA>
-      <FILEPATH>C:\Users\Banna-Desktop\Desktop\dev\AB_MULTI_STL_VIEWER\AB_MULTI_STL_VIEWER\</FILEPATH>
-      <FILENAME>rang.hpp</FILENAME>
-      <LINE>172</LINE>
-      <COLUMN>19</COLUMN>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkObjectBase.h</FILENAME>
+      <LINE>319</LINE>
+      <COLUMN>2</COLUMN>
     </SFA>
-    <DEFECTCODE>6387</DEFECTCODE>
-    <DESCRIPTION>'GetModuleHandleW("kernel32.dll")' could be '0':  this does not adhere to the specification for the function 'GetProcAddress'. </DESCRIPTION>
-    <FUNCTION>rang::rang_implementation::isMsysPty</FUNCTION>
-    <DECORATED>?isMsysPty@rang_implementation@rang@@YA_NH@Z</DECORATED>
-    <FUNCLINE>169</FUNCLINE>
-    <PROBABILITY>1</PROBABILITY>
-    <RANK>4</RANK>
-    <CATEGORY>
-      <RULECATEGORY>mspft</RULECATEGORY>
-    </CATEGORY>
-    <PATH>
-      <SFA>
-        <FILEPATH>C:\Users\Banna-Desktop\Desktop\dev\AB_MULTI_STL_VIEWER\AB_MULTI_STL_VIEWER\</FILEPATH>
-        <FILENAME>rang.hpp</FILENAME>
-        <LINE>172</LINE>
-        <COLUMN>19</COLUMN>
-        <KEYEVENT>
-          <ID>1</ID>
-          <KIND>declaration</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleW' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\um\libloaderapi.h:244)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\Banna-Desktop\Desktop\dev\AB_MULTI_STL_VIEWER\AB_MULTI_STL_VIEWER\</FILEPATH>
-        <FILENAME>rang.hpp</FILENAME>
-        <LINE>172</LINE>
-        <COLUMN>19</COLUMN>
-        <KEYEVENT>
-          <ID>2</ID>
-          <KIND>declaration</KIND>
-          <IMPORTANCE>Full</IMPORTANCE>
-          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleW' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\um\libloaderapi.h:244)</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-      <SFA>
-        <FILEPATH>C:\Users\Banna-Desktop\Desktop\dev\AB_MULTI_STL_VIEWER\AB_MULTI_STL_VIEWER\</FILEPATH>
-        <FILENAME>rang.hpp</FILENAME>
-        <LINE>172</LINE>
-        <COLUMN>19</COLUMN>
-        <KEYEVENT>
-          <ID>3</ID>
-          <KIND>usage</KIND>
-          <IMPORTANCE>Essential</IMPORTANCE>
-          <MESSAGE>'GetModuleHandleW("kernel32.dll")' should not be NULL, because this is not consistent with the SAL annotation on 'GetProcAddress'</MESSAGE>
-        </KEYEVENT>
-      </SFA>
-    </PATH>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkObjectBase::WeakPointers' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkObjectBase::{ctor}</FUNCTION>
+    <DECORATED>??0vtkObjectBase@@IEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>319</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkObjectBase::WeakPointers</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
       <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
@@ -71,18 +32,18 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkObjectBase.h</FILENAME>
-      <LINE>319</LINE>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\vtksys\</FILEPATH>
+      <FILENAME>Status.hxx</FILENAME>
+      <LINE>28</LINE>
       <COLUMN>2</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkObjectBase::WeakPointers' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkObjectBase::{ctor}</FUNCTION>
-    <DECORATED>??0vtkObjectBase@@IEAA@AEBV0@@Z</DECORATED>
-    <FUNCLINE>319</FUNCLINE>
+    <DESCRIPTION>Variable 'vtksys::Status::&lt;unnamed-tag&gt;::Windows_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtksys::Status::{ctor}</FUNCTION>
+    <DECORATED>??0Status@vtksys@@QEAA@XZ</DECORATED>
+    <FUNCLINE>28</FUNCLINE>
     <ADDITIONALINFO>
-      <targetSymbol>vtkObjectBase::WeakPointers</targetSymbol>
+      <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::Windows_</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -105,14 +66,14 @@
     <SFA>
       <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\vtksys\</FILEPATH>
       <FILENAME>Status.hxx</FILENAME>
-      <LINE>28</LINE>
+      <LINE>86</LINE>
       <COLUMN>2</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
     <DESCRIPTION>Variable 'vtksys::Status::&lt;unnamed-tag&gt;::Windows_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>vtksys::Status::{ctor}</FUNCTION>
-    <DECORATED>??0Status@vtksys@@QEAA@XZ</DECORATED>
-    <FUNCLINE>28</FUNCLINE>
+    <DECORATED>??0Status@vtksys@@AEAA@W4Kind@01@@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
     <ADDITIONALINFO>
       <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::Windows_</targetSymbol>
     </ADDITIONALINFO>
@@ -131,38 +92,6 @@
     <FUNCLINE>86</FUNCLINE>
     <ADDITIONALINFO>
       <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::POSIX_</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\vtksys\</FILEPATH>
-      <FILENAME>Status.hxx</FILENAME>
-      <LINE>86</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtksys::Status::&lt;unnamed-tag&gt;::Windows_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtksys::Status::{ctor}</FUNCTION>
-    <DECORATED>??0Status@vtksys@@AEAA@W4Kind@01@@Z</DECORATED>
-    <FUNCLINE>86</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::Windows_</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkCommand.h</FILENAME>
-      <LINE>463</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkCommand::AbortFlag' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkCommand::{ctor}</FUNCTION>
-    <DECORATED>??0vtkCommand@@IEAA@AEBV0@@Z</DECORATED>
-    <FUNCLINE>463</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtkCommand::AbortFlag</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -184,81 +113,17 @@
   </DEFECT><DEFECT>
     <SFA>
       <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkEventData.h</FILENAME>
-      <LINE>76</LINE>
+      <FILENAME>vtkCommand.h</FILENAME>
+      <LINE>463</LINE>
       <COLUMN>2</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkEventData::Type' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkEventData::{ctor}</FUNCTION>
-    <DECORATED>??0vtkEventData@@IEAA@XZ</DECORATED>
-    <FUNCLINE>76</FUNCLINE>
+    <DESCRIPTION>Variable 'vtkCommand::AbortFlag' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkCommand::{ctor}</FUNCTION>
+    <DECORATED>??0vtkCommand@@IEAA@AEBV0@@Z</DECORATED>
+    <FUNCLINE>463</FUNCLINE>
     <ADDITIONALINFO>
-      <targetSymbol>vtkEventData::Type</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkEventData.h</FILENAME>
-      <LINE>229</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldDirection' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
-    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
-    <FUNCLINE>229</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtkEventDataDevice3D::WorldDirection</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkEventData.h</FILENAME>
-      <LINE>229</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldPosition' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
-    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
-    <FUNCLINE>229</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtkEventDataDevice3D::WorldPosition</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkEventData.h</FILENAME>
-      <LINE>229</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkEventDataDevice3D::TrackPadPosition' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
-    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
-    <FUNCLINE>229</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtkEventDataDevice3D::TrackPadPosition</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkEventData.h</FILENAME>
-      <LINE>229</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldOrientation' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
-    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
-    <FUNCLINE>229</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtkEventDataDevice3D::WorldOrientation</targetSymbol>
+      <targetSymbol>vtkCommand::AbortFlag</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -286,6 +151,86 @@
     <FUNCTION>vtkPolyData_detail::GenTargetVar</FUNCTION>
     <DECORATED>?GenTargetVar@vtkPolyData_detail@@YAEW4Target@1@W4TypeVariant@1@@Z</DECORATED>
     <FUNCLINE>109</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkEventData.h</FILENAME>
+      <LINE>76</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkEventData::Type' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkEventData::{ctor}</FUNCTION>
+    <DECORATED>??0vtkEventData@@IEAA@XZ</DECORATED>
+    <FUNCLINE>76</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkEventData::Type</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkEventData.h</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldOrientation' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
+    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkEventDataDevice3D::WorldOrientation</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkEventData.h</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkEventDataDevice3D::TrackPadPosition' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
+    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkEventDataDevice3D::TrackPadPosition</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkEventData.h</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldPosition' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
+    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkEventDataDevice3D::WorldPosition</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkEventData.h</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldDirection' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
+    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkEventDataDevice3D::WorldDirection</targetSymbol>
+    </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
@@ -359,12 +304,12 @@
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::main_dir_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::dir_sign_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>CGAL::Intersections::internal::Straight_2_base_::{ctor}</FUNCTION>
     <DECORATED>??0Straight_2_base_@internal@Intersections@CGAL@@IEAA@XZ</DECORATED>
     <FUNCLINE>74</FUNCLINE>
     <ADDITIONALINFO>
-      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::main_dir_</targetSymbol>
+      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::dir_sign_</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -375,12 +320,28 @@
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::dir_sign_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::main_dir_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>CGAL::Intersections::internal::Straight_2_base_::{ctor}</FUNCTION>
     <DECORATED>??0Straight_2_base_@internal@Intersections@CGAL@@IEAA@XZ</DECORATED>
     <FUNCLINE>74</FUNCLINE>
     <ADDITIONALINFO>
-      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::dir_sign_</targetSymbol>
+      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::main_dir_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\</FILEPATH>
+      <FILENAME>Random.h</FILENAME>
+      <LINE>53</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'CGAL::Random::State::val' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>CGAL::Random::State::{ctor}</FUNCTION>
+    <DECORATED>??0State@Random@CGAL@@QEAA@XZ</DECORATED>
+    <FUNCLINE>53</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>CGAL::Random::State::val</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -413,22 +374,6 @@
     <FUNCLINE>53</FUNCLINE>
     <ADDITIONALINFO>
       <targetSymbol>CGAL::Random::State::seed</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\</FILEPATH>
-      <FILENAME>Random.h</FILENAME>
-      <LINE>53</LINE>
-      <COLUMN>4</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'CGAL::Random::State::val' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>CGAL::Random::State::{ctor}</FUNCTION>
-    <DECORATED>??0State@Random@CGAL@@QEAA@XZ</DECORATED>
-    <FUNCLINE>53</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>CGAL::Random::State::val</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -539,6 +484,343 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\</FILEPATH>
+      <FILENAME>rang.hpp</FILENAME>
+      <LINE>172</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'GetModuleHandleW("kernel32.dll")' could be '0':  this does not adhere to the specification for the function 'GetProcAddress'. </DESCRIPTION>
+    <FUNCTION>rang::rang_implementation::isMsysPty</FUNCTION>
+    <DECORATED>?isMsysPty@rang_implementation@rang@@YA_NH@Z</DECORATED>
+    <FUNCLINE>169</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\</FILEPATH>
+        <FILENAME>rang.hpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleW' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\um\libloaderapi.h:244)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\</FILEPATH>
+        <FILENAME>rang.hpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'&lt;symbol&gt;' receives the Return value from 'GetModuleHandleW' (declared at c:\program files (x86)\windows kits\10\include\10.0.22621.0\um\libloaderapi.h:244)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\</FILEPATH>
+        <FILENAME>rang.hpp</FILENAME>
+        <LINE>172</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'GetModuleHandleW("kernel32.dll")' should not be NULL, because this is not consistent with the SAL annotation on 'GetProcAddress'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>mat.inl.hpp</FILENAME>
+      <LINE>1239</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cv::MatStep::{ctor}</FUNCTION>
+    <DECORATED>??0MatStep@cv@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1239</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cv::MatStep::buf</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>mat.inl.hpp</FILENAME>
+      <LINE>1245</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cv::MatStep::buf' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cv::MatStep::{ctor}</FUNCTION>
+    <DECORATED>??0MatStep@cv@@QEAA@_K@Z</DECORATED>
+    <FUNCLINE>1245</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cv::MatStep::buf</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>async.hpp</FILENAME>
+      <LINE>73</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26439</DEFECTCODE>
+    <DESCRIPTION>This kind of function should not throw. Declare it 'noexcept' (f.6).</DESCRIPTION>
+    <FUNCTION>cv::AsyncArray::{ctor}</FUNCTION>
+    <DECORATED>??0AsyncArray@cv@@QEAA@$$QEAV01@@Z</DECORATED>
+    <FUNCLINE>73</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
+      <FILENAME>matrix.h</FILENAME>
+      <LINE>95</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cvflann::UntypedMatrix::type' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cvflann::UntypedMatrix::{ctor}</FUNCTION>
+    <DECORATED>??0UntypedMatrix@cvflann@@QEAA@PEAXJJ@Z</DECORATED>
+    <FUNCLINE>95</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cvflann::UntypedMatrix::type</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
+      <FILENAME>lsh_table.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::bucket_size_median_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
+    <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cvflann::lsh::LshStats::bucket_size_median_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
+      <FILENAME>lsh_table.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::bucket_size_max_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
+    <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cvflann::lsh::LshStats::bucket_size_max_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
+      <FILENAME>lsh_table.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::bucket_size_mean_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
+    <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cvflann::lsh::LshStats::bucket_size_mean_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
+      <FILENAME>lsh_table.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::n_buckets_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
+    <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cvflann::lsh::LshStats::n_buckets_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
+      <FILENAME>lsh_table.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::bucket_size_min_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
+    <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cvflann::lsh::LshStats::bucket_size_min_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
+      <FILENAME>lsh_table.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::bucket_size_std_dev' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
+    <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cvflann::lsh::LshStats::bucket_size_std_dev</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\stitching\detail\</FILEPATH>
+      <FILENAME>warpers.hpp</FILENAME>
+      <LINE>188</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cv::detail::RotationWarperBase&lt;cv::detail::CompressedRectilinearProjector&gt;::projector_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cv::detail::RotationWarperBase&lt;cv::detail::CompressedRectilinearProjector&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$RotationWarperBase@UCompressedRectilinearProjector@detail@cv@@@detail@cv@@QEAA@XZ</DECORATED>
+    <FUNCLINE>188</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cv::detail::RotationWarperBase&lt;cv::detail::CompressedRectilinearProjector&gt;::projector_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\stitching\detail\</FILEPATH>
+      <FILENAME>warpers.hpp</FILENAME>
+      <LINE>188</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cv::detail::RotationWarperBase&lt;cv::detail::CompressedRectilinearPortraitProjector&gt;::projector_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cv::detail::RotationWarperBase&lt;cv::detail::CompressedRectilinearPortraitProjector&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$RotationWarperBase@UCompressedRectilinearPortraitProjector@detail@cv@@@detail@cv@@QEAA@XZ</DECORATED>
+    <FUNCLINE>188</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cv::detail::RotationWarperBase&lt;cv::detail::CompressedRectilinearPortraitProjector&gt;::projector_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\stitching\detail\</FILEPATH>
+      <FILENAME>warpers.hpp</FILENAME>
+      <LINE>188</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cv::detail::RotationWarperBase&lt;cv::detail::PaniniProjector&gt;::projector_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cv::detail::RotationWarperBase&lt;cv::detail::PaniniProjector&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$RotationWarperBase@UPaniniProjector@detail@cv@@@detail@cv@@QEAA@XZ</DECORATED>
+    <FUNCLINE>188</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cv::detail::RotationWarperBase&lt;cv::detail::PaniniProjector&gt;::projector_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\stitching\detail\</FILEPATH>
+      <FILENAME>warpers.hpp</FILENAME>
+      <LINE>188</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cv::detail::RotationWarperBase&lt;cv::detail::PaniniPortraitProjector&gt;::projector_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cv::detail::RotationWarperBase&lt;cv::detail::PaniniPortraitProjector&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$RotationWarperBase@UPaniniPortraitProjector@detail@cv@@@detail@cv@@QEAA@XZ</DECORATED>
+    <FUNCLINE>188</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cv::detail::RotationWarperBase&lt;cv::detail::PaniniPortraitProjector&gt;::projector_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MSI-PC\Desktop\Dev\AB_MULTI_STL_VIEWER\AB_MULTI_STL_VIEWER\</FILEPATH>
+      <FILENAME>AB_MULTI_STL_VIEWER.cpp</FILENAME>
+      <LINE>1087</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonCallbackData::buttonMidX' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonCallbackData::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonCallbackData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1087</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonCallbackData::buttonMidX</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MSI-PC\Desktop\Dev\AB_MULTI_STL_VIEWER\AB_MULTI_STL_VIEWER\</FILEPATH>
+      <FILENAME>AB_MULTI_STL_VIEWER.cpp</FILENAME>
+      <LINE>1087</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonCallbackData::buttonMidY' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonCallbackData::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonCallbackData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1087</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonCallbackData::buttonMidY</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MSI-PC\Desktop\Dev\AB_MULTI_STL_VIEWER\AB_MULTI_STL_VIEWER\</FILEPATH>
+      <FILENAME>AB_MULTI_STL_VIEWER.cpp</FILENAME>
+      <LINE>1087</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonCallbackData::textActor' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonCallbackData::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonCallbackData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1087</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonCallbackData::textActor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
+      <FILENAME>any.h</FILENAME>
+      <LINE>97</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6269</DEFECTCODE>
+    <DESCRIPTION>Possibly incorrect order of operations.</DESCRIPTION>
+    <FUNCTION>cvflann::anyimpl::big_any_policy&lt;enum cvflann::flann_algorithm_t&gt;::move</FUNCTION>
+    <DECORATED>?move@?$big_any_policy@W4flann_algorithm_t@cvflann@@@anyimpl@cvflann@@UEAAXPEBQEAXPEAPEAX@Z</DECORATED>
+    <FUNCLINE>95</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
       <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Surface_mesh\</FILEPATH>
       <FILENAME>Surface_mesh.h</FILENAME>
       <LINE>78</LINE>
@@ -602,6 +884,22 @@
     <SFA>
       <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\Eigen\src\Core\</FILEPATH>
       <FILENAME>DenseStorage.h</FILENAME>
+      <LINE>49</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Eigen::internal::plain_array&lt;double,3,0,0&gt;::array' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Eigen::internal::plain_array&lt;double,3,0,0&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$plain_array@N$02$0A@$0A@@internal@Eigen@@QEAA@XZ</DECORATED>
+    <FUNCLINE>49</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Eigen::internal::plain_array&lt;double,3,0,0&gt;::array</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\Eigen\src\Core\</FILEPATH>
+      <FILENAME>DenseStorage.h</FILENAME>
       <LINE>107</LINE>
       <COLUMN>2</COLUMN>
     </SFA>
@@ -645,6 +943,38 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>utility.hpp</FILENAME>
+      <LINE>971</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cv::AutoBuffer&lt;__int64,1&gt;::buf' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cv::AutoBuffer&lt;__int64,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$AutoBuffer@_J$00@cv@@QEAA@XZ</DECORATED>
+    <FUNCLINE>971</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cv::AutoBuffer&lt;__int64,1&gt;::buf</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>utility.hpp</FILENAME>
+      <LINE>971</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cv::AutoBuffer&lt;double,1&gt;::buf' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cv::AutoBuffer&lt;double,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$AutoBuffer@N$00@cv@@QEAA@XZ</DECORATED>
+    <FUNCLINE>971</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cv::AutoBuffer&lt;double,1&gt;::buf</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
       <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\CGAL\Cartesian\</FILEPATH>
       <FILENAME>Vector_3.h</FILENAME>
       <LINE>50</LINE>
@@ -661,19 +991,81 @@
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\Eigen\src\Core\</FILEPATH>
-      <FILENAME>DenseStorage.h</FILENAME>
-      <LINE>49</LINE>
-      <COLUMN>2</COLUMN>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>578</LINE>
+      <COLUMN>4</COLUMN>
     </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'Eigen::internal::plain_array&lt;double,3,0,0&gt;::array' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>Eigen::internal::plain_array&lt;double,3,0,0&gt;::{ctor}</FUNCTION>
-    <DECORATED>??0?$plain_array@N$02$0A@$0A@@internal@Eigen@@QEAA@XZ</DECORATED>
-    <FUNCLINE>49</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>Eigen::internal::plain_array&lt;double,3,0,0&gt;::array</targetSymbol>
-    </ADDITIONALINFO>
+    <DEFECTCODE>6294</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop.  Loop body not executed.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,3,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$02$00@cv@@QEAA@MMM@Z</DECORATED>
+    <FUNCLINE>574</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>578</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>Index '3' is out of valid index range '0' to '2' for possibly stack allocated buffer 'this-&gt;val'.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,3,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$02$00@cv@@QEAA@MMM@Z</DECORATED>
+    <FUNCLINE>574</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>570</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6294</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop.  Loop body not executed.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,2,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$01$00@cv@@QEAA@MM@Z</DECORATED>
+    <FUNCLINE>566</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>570</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>Index '2' is out of valid index range '0' to '1' for possibly stack allocated buffer 'this-&gt;val'.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,2,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$01$00@cv@@QEAA@MM@Z</DECORATED>
+    <FUNCLINE>566</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>586</LINE>
+      <COLUMN>4</COLUMN>
+    </SFA>
+    <DEFECTCODE>6294</DEFECTCODE>
+    <DESCRIPTION>Ill-defined for-loop.  Loop body not executed.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,4,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z</DECORATED>
+    <FUNCLINE>582</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\core\</FILEPATH>
+      <FILENAME>matx.hpp</FILENAME>
+      <LINE>586</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>6201</DEFECTCODE>
+    <DESCRIPTION>Index '4' is out of valid index range '0' to '3' for possibly stack allocated buffer 'this-&gt;val'.</DESCRIPTION>
+    <FUNCTION>cv::Matx&lt;float,4,1&gt;::{ctor}</FUNCTION>
+    <DECORATED>??0?$Matx@M$03$00@cv@@QEAA@MMMM@Z</DECORATED>
+    <FUNCLINE>582</FUNCLINE>
     <PATH></PATH>
   </DEFECT><DEFECT>
     <SFA>

@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/msi-pc/desktop/dev/ab_multi_stl_viewer/ab_multi_stl_viewer/cgif/cgif_raw.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "6d47e8273327cd966ea7a94f5da6eca8ef4192c10011487107baa27a758ddaef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/msi-pc/desktop/dev/ab_multi_stl_viewer/ab_multi_stl_viewer/cgif/cgif_raw.h"
+          },
+          "hashes": {
+            "sha-256": "b586df3493d968ec12f35c7b1f6521437929a279ead0b8f342357a2bc1fc42b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/msi-pc/desktop/dev/ab_multi_stl_viewer/ab_multi_stl_viewer/cgif/cgif.h"
+          },
+          "hashes": {
+            "sha-256": "4851d9be1598b43d66972ca18d867730a667a05af4a46a38587dcdd0ca90164b"
+          }
+        }
+      ]
+    }
+  ]
+}

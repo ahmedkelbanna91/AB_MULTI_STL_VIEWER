@@ -20,10 +20,13 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="rang.hpp">
+    <ClInclude Include="STL_files.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Holders_STL.h">
+    <ClInclude Include="export_pdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="export_mp4.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
