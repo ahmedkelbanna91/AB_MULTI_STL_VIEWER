@@ -485,11 +485,11 @@ public:
 			ifstream NCfile(NCfilepath);
 			string NCline;
 
-			//ofstream outTXTFile("Log.txt");
-			//if (!outTXTFile) {
-			//	cerr << "Unable to open file for writing";
-			//	return;
-			//}
+			ofstream outTXTFile("Log.txt");
+			if (!outTXTFile) {
+				cerr << "Unable to open file for writing";
+				return;
+			}
 
 			NCpoints->Reset();
 			while (getline(NCfile, NCline)) {
@@ -533,10 +533,10 @@ public:
 					NCcount++;
 					Eigen::Vector3d TNormal = Tn.block<3, 1>(0, 2);
 
-					//outTXTFile << setw(3) << setfill('0') << NCcount
-					//	<< " - G  " << B << ", " << C << ", " << X << ", " << Y << ", " << Z << "   T "
-					//	<< toolTipPos(0) << ", " << toolTipPos(1) << ", " << toolTipPos(2) << "   N "
-					//	<< TNormal(0) << ", " << TNormal(1) << ", " << TNormal(2) << endl;
+					outTXTFile << setw(3) << setfill('0') << NCcount
+						<< " - G  B" << B << " C" << C << " X" << X << " Y" << Y << " Z" << Z << "   T "
+						<< toolTipPos(0) << " " << toolTipPos(1) << " " << toolTipPos(2) << " "
+						<< TNormal(0) << " " << TNormal(1) << " " << TNormal(2) << endl;
 
 					if (loadNCNormals == 2) {
 						Eigen::Vector3d toolNormal = Tn.block<3, 1>(0, 2) * ToolNormalsLength;
@@ -552,7 +552,7 @@ public:
 				}
 			}
 
-			//outTXTFile.close();
+			outTXTFile.close();
 
 			if (NCpoints->GetNumberOfPoints() > 0) {
 				path PTSfilepath(FileNamesPath[index] + ".pts");

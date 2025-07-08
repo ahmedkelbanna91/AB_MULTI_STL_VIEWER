@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClearAlignerProductionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" NumberOfStages="14" NumberOfRetainers="0" xmlns="http://tempuri.org/ClearAlignerProductionResources.xsd">
+    <Molds>
+        <Mold Stage="1" Jaw="U" Type="Aligner" Filename="263244UN01.stl" IdTag="263244UN01">
+             <CutLinePTS Filename="263244UN01.pts" />
+             <DirectPartMarking Filename="263244UN01.svg" />
+        </Mold>
+        <Mold Stage="1" Jaw="L" Type="Aligner" Filename="263244LN01.stl" IdTag="263244LN01">
+             <CutLinePTS Filename="263244LN01.pts" />
+             <DirectPartMarking Filename="263244LN01.svg" />
+        </Mold>
+        <Mold Stage="2" Jaw="U" Type="Aligner" Filename="263244UN02.stl" IdTag="263244UN02">
+             <CutLinePTS Filename="263244UN02.pts" />
+             <DirectPartMarking Filename="263244UN02.svg" />
+        </Mold>
+        <Mold Stage="2" Jaw="L" Type="Aligner" Filename="263244LN02.stl" IdTag="263244LN02">
+             <CutLinePTS Filename="263244LN02.pts" />
+             <DirectPartMarking Filename="263244LN02.svg" />
+        </Mold>
+        <Mold Stage="3" Jaw="U" Type="Aligner" Filename="263244UN03.stl" IdTag="263244UN03">
+             <CutLinePTS Filename="263244UN03.pts" />
+             <DirectPartMarking Filename="263244UN03.svg" />
+        </Mold>
+        <Mold Stage="3" Jaw="L" Type="Aligner" Filename="263244LN03.stl" IdTag="263244LN03">
+             <CutLinePTS Filename="263244LN03.pts" />
+             <DirectPartMarking Filename="263244LN03.svg" />
+        </Mold>
+        <Mold Stage="4" Jaw="U" Type="Aligner" Filename="263244UN04.stl" IdTag="263244UN04">
+             <CutLinePTS Filename="263244UN04.pts" />
+             <DirectPartMarking Filename="263244UN04.svg" />
+        </Mold>
+        <Mold Stage="4" Jaw="L" Type="Aligner" Filename="263244LN04.stl" IdTag="263244LN04">
+             <CutLinePTS Filename="263244LN04.pts" />
+             <DirectPartMarking Filename="263244LN04.svg" />
+        </Mold>
+        <Mold Stage="5" Jaw="U" Type="Aligner" Filename="263244UN05.stl" IdTag="263244UN05">
+             <CutLinePTS Filename="263244UN05.pts" />
+             <DirectPartMarking Filename="263244UN05.svg" />
+        </Mold>
+        <Mold Stage="5" Jaw="L" Type="Aligner" Filename="263244LN05.stl" IdTag="263244LN05">
+             <CutLinePTS Filename="263244LN05.pts" />
+             <DirectPartMarking Filename="263244LN05.svg" />
+        </Mold>
+        <Mold Stage="6" Jaw="U" Type="Aligner" Filename="263244UN06.stl" IdTag="263244UN06">
+             <CutLinePTS Filename="263244UN06.pts" />
+             <DirectPartMarking Filename="263244UN06.svg" />
+        </Mold>
+        <Mold Stage="6" Jaw="L" Type="Aligner" Filename="263244LN06.stl" IdTag="263244LN06">
+             <CutLinePTS Filename="263244LN06.pts" />
+             <DirectPartMarking Filename="263244LN06.svg" />
+        </Mold>
+        <Mold Stage="7" Jaw="U" Type="Aligner" Filename="263244UN07.stl" IdTag="263244UN07">
+             <CutLinePTS Filename="263244UN07.pts" />
+             <DirectPartMarking Filename="263244UN07.svg" />
+        </Mold>
+        <Mold Stage="7" Jaw="L" Type="Aligner" Filename="263244LN07.stl" IdTag="263244LN07">
+             <CutLinePTS Filename="263244LN07.pts" />
+             <DirectPartMarking Filename="263244LN07.svg" />
+        </Mold>
+        <Mold Stage="8" Jaw="U" Type="Aligner" Filename="263244UN08.stl" IdTag="263244UN08">
+             <CutLinePTS Filename="263244UN08.pts" />
+             <DirectPartMarking Filename="263244UN08.svg" />
+        </Mold>
+        <Mold Stage="8" Jaw="L" Type="Aligner" Filename="263244LN08.stl" IdTag="263244LN08">
+             <CutLinePTS Filename="263244LN08.pts" />
+             <DirectPartMarking Filename="263244LN08.svg" />
+        </Mold>
+        <Mold Stage="9" Jaw="U" Type="Aligner" Filename="263244UN09.stl" IdTag="263244UN09">
+             <CutLinePTS Filename="263244UN09.pts" />
+             <DirectPartMarking Filename="263244UN09.svg" />
+        </Mold>
+        <Mold Stage="9" Jaw="L" Type="Aligner" Filename="263244LN09.stl" IdTag="263244LN09">
+             <CutLinePTS Filename="263244LN09.pts" />
+             <DirectPartMarking Filename="263244LN09.svg" />
+        </Mold>
+        <Mold Stage="10" Jaw="U" Type="Aligner" Filename="263244UN10.stl" IdTag="263244UN10">
+             <CutLinePTS Filename="263244UN10.pts" />
+             <DirectPartMarking Filename="263244UN10.svg" />
+        </Mold>
+        <Mold Stage="10" Jaw="L" Type="Aligner" Filename="263244LN10.stl" IdTag="263244LN10">
+             <CutLinePTS Filename="263244LN10.pts" />
+             <DirectPartMarking Filename="263244LN10.svg" />
+        </Mold>
+        <Mold Stage="11" Jaw="U" Type="Aligner" Filename="263244UN11.stl" IdTag="263244UN11">
+             <CutLinePTS Filename="263244UN11.pts" />
+             <DirectPartMarking Filename="263244UN11.svg" />
+        </Mold>
+        <Mold Stage="11" Jaw="L" Type="Aligner" Filename="263244LN11.stl" IdTag="263244LN11">
+             <CutLinePTS Filename="263244LN11.pts" />
+             <DirectPartMarking Filename="263244LN11.svg" />
+        </Mold>
+        <Mold Stage="12" Jaw="U" Type="Aligner" Filename="263244UN12.stl" IdTag="263244UN12">
+             <CutLinePTS Filename="263244UN12.pts" />
+             <DirectPartMarking Filename="263244UN12.svg" />
+        </Mold>
+        <Mold Stage="12" Jaw="L" Type="Aligner" Filename="263244LN12.stl" IdTag="263244LN12">
+             <CutLinePTS Filename="263244LN12.pts" />
+             <DirectPartMarking Filename="263244LN12.svg" />
+        </Mold>
+        <Mold Stage="13" Jaw="U" Type="Aligner" Filename="263244UN13.stl" IdTag="263244UN13">
+             <CutLinePTS Filename="263244UN13.pts" />
+             <DirectPartMarking Filename="263244UN13.svg" />
+        </Mold>
+        <Mold Stage="13" Jaw="L" Type="Aligner" Filename="263244LN13.stl" IdTag="263244LN13">
+             <CutLinePTS Filename="263244LN13.pts" />
+             <DirectPartMarking Filename="263244LN13.svg" />
+        </Mold>
+        <Mold Stage="14" Jaw="U" Type="Aligner" Filename="263244UN14.stl" IdTag="263244UN14">
+             <CutLinePTS Filename="263244UN14.pts" />
+             <DirectPartMarking Filename="263244UN14.svg" />
+        </Mold>
+        <Mold Stage="14" Jaw="L" Type="Aligner" Filename="263244LN14.stl" IdTag="263244LN14">
+             <CutLinePTS Filename="263244LN14.pts" />
+             <DirectPartMarking Filename="263244LN14.svg" />
+        </Mold>
+    </Molds>
+</ClearAlignerProductionResources>

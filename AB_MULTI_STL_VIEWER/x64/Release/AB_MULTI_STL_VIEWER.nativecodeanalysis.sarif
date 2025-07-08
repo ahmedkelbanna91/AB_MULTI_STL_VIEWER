@@ -68,36 +68,6 @@
           "ruleId": "C26495",
           "level": "warning",
           "message": {
-            "text": "Variable 'vtksys::Status::<unnamed-tag>::Windows_' is uninitialized. Always initialize a member variable (type.6)."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/Status.hxx"
-                },
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 3
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "vtksys::Status::{ctor}",
-                  "decoratedName": "??0Status@vtksys@@QEAA@XZ",
-                  "kind": "function"
-                }
-              ]
-            }
-          ],
-          "properties": {
-            "targetSymbol": "vtksys::Status::<unnamed-tag>::Windows_"
-          }
-        },
-        {
-          "ruleId": "C26495",
-          "level": "warning",
-          "message": {
             "text": "Variable 'vtksys::Status::<unnamed-tag>::POSIX_' is uninitialized. Always initialize a member variable (type.6)."
           },
           "locations": [
@@ -137,14 +107,14 @@
                   "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/Status.hxx"
                 },
                 "region": {
-                  "startLine": 86,
+                  "startLine": 28,
                   "startColumn": 3
                 }
               },
               "logicalLocations": [
                 {
                   "fullyQualifiedName": "vtksys::Status::{ctor}",
-                  "decoratedName": "??0Status@vtksys@@AEAA@W4Kind@01@@Z",
+                  "decoratedName": "??0Status@vtksys@@QEAA@XZ",
                   "kind": "function"
                 }
               ]
@@ -182,6 +152,36 @@
           ],
           "properties": {
             "targetSymbol": "vtksys::Status::<unnamed-tag>::POSIX_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'vtksys::Status::<unnamed-tag>::Windows_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtksys/Status.hxx"
+                },
+                "region": {
+                  "startLine": 86,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtksys::Status::{ctor}",
+                  "decoratedName": "??0Status@vtksys@@AEAA@W4Kind@01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtksys::Status::<unnamed-tag>::Windows_"
           }
         },
         {
@@ -334,6 +334,36 @@
           "ruleId": "C26495",
           "level": "warning",
           "message": {
+            "text": "Variable 'vtkEventDataDevice3D::WorldPosition' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkEventData.h"
+                },
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "vtkEventDataDevice3D::{ctor}",
+                  "decoratedName": "??0vtkEventDataDevice3D@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "vtkEventDataDevice3D::WorldPosition"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
             "text": "Variable 'vtkEventDataDevice3D::WorldOrientation' is uninitialized. Always initialize a member variable (type.6)."
           },
           "locations": [
@@ -388,36 +418,6 @@
           ],
           "properties": {
             "targetSymbol": "vtkEventDataDevice3D::TrackPadPosition"
-          }
-        },
-        {
-          "ruleId": "C26495",
-          "level": "warning",
-          "message": {
-            "text": "Variable 'vtkEventDataDevice3D::WorldPosition' is uninitialized. Always initialize a member variable (type.6)."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/vtk-9.3/vtkEventData.h"
-                },
-                "region": {
-                  "startLine": 229,
-                  "startColumn": 3
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "vtkEventDataDevice3D::{ctor}",
-                  "decoratedName": "??0vtkEventDataDevice3D@@IEAA@XZ",
-                  "kind": "function"
-                }
-              ]
-            }
-          ],
-          "properties": {
-            "targetSymbol": "vtkEventDataDevice3D::WorldPosition"
           }
         },
         {
@@ -574,36 +574,6 @@
           "ruleId": "C26495",
           "level": "warning",
           "message": {
-            "text": "Variable 'CGAL::Intersections::internal::Straight_2_base_::dir_sign_' is uninitialized. Always initialize a member variable (type.6)."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/CGAL/Intersections_2/internal/Straight_2.h"
-                },
-                "region": {
-                  "startLine": 74,
-                  "startColumn": 1
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "CGAL::Intersections::internal::Straight_2_base_::{ctor}",
-                  "decoratedName": "??0Straight_2_base_@internal@Intersections@CGAL@@IEAA@XZ",
-                  "kind": "function"
-                }
-              ]
-            }
-          ],
-          "properties": {
-            "targetSymbol": "CGAL::Intersections::internal::Straight_2_base_::dir_sign_"
-          }
-        },
-        {
-          "ruleId": "C26495",
-          "level": "warning",
-          "message": {
             "text": "Variable 'CGAL::Intersections::internal::Straight_2_base_::main_dir_' is uninitialized. Always initialize a member variable (type.6)."
           },
           "locations": [
@@ -628,6 +598,36 @@
           ],
           "properties": {
             "targetSymbol": "CGAL::Intersections::internal::Straight_2_base_::main_dir_"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'CGAL::Intersections::internal::Straight_2_base_::dir_sign_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/CGAL/Intersections_2/internal/Straight_2.h"
+                },
+                "region": {
+                  "startLine": 74,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CGAL::Intersections::internal::Straight_2_base_::{ctor}",
+                  "decoratedName": "??0Straight_2_base_@internal@Intersections@CGAL@@IEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CGAL::Intersections::internal::Straight_2_base_::dir_sign_"
           }
         },
         {
@@ -1144,7 +1144,7 @@
           "ruleId": "C26495",
           "level": "warning",
           "message": {
-            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_median_' is uninitialized. Always initialize a member variable (type.6)."
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_mean_' is uninitialized. Always initialize a member variable (type.6)."
           },
           "locations": [
             {
@@ -1167,7 +1167,7 @@
             }
           ],
           "properties": {
-            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_median_"
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_mean_"
           }
         },
         {
@@ -1204,7 +1204,7 @@
           "ruleId": "C26495",
           "level": "warning",
           "message": {
-            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_mean_' is uninitialized. Always initialize a member variable (type.6)."
+            "text": "Variable 'cvflann::lsh::LshStats::bucket_size_median_' is uninitialized. Always initialize a member variable (type.6)."
           },
           "locations": [
             {
@@ -1227,37 +1227,7 @@
             }
           ],
           "properties": {
-            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_mean_"
-          }
-        },
-        {
-          "ruleId": "C26495",
-          "level": "warning",
-          "message": {
-            "text": "Variable 'cvflann::lsh::LshStats::n_buckets_' is uninitialized. Always initialize a member variable (type.6)."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/opencv2/flann/lsh_table.h"
-                },
-                "region": {
-                  "startLine": 102,
-                  "startColumn": 1
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
-                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
-                  "kind": "function"
-                }
-              ]
-            }
-          ],
-          "properties": {
-            "targetSymbol": "cvflann::lsh::LshStats::n_buckets_"
+            "targetSymbol": "cvflann::lsh::LshStats::bucket_size_median_"
           }
         },
         {
@@ -1318,6 +1288,36 @@
           ],
           "properties": {
             "targetSymbol": "cvflann::lsh::LshStats::bucket_size_std_dev"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "level": "warning",
+          "message": {
+            "text": "Variable 'cvflann::lsh::LshStats::n_buckets_' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/devlib/vcpkg/installed/x64-windows-static/include/opencv2/flann/lsh_table.h"
+                },
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "cvflann::lsh::LshStats::{ctor}",
+                  "decoratedName": "??0LshStats@lsh@cvflann@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "cvflann::lsh::LshStats::n_buckets_"
           }
         },
         {
@@ -1443,35 +1443,6 @@
         {
           "ruleId": "C26495",
           "message": {
-            "text": "Variable 'ButtonCallbackData::buttonMidX' is uninitialized. Always initialize a member variable (type.6)."
-          },
-          "locations": [
-            {
-              "physicalLocation": {
-                "artifactLocation": {
-                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER.cpp"
-                },
-                "region": {
-                  "startLine": 1087,
-                  "startColumn": 1
-                }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "ButtonCallbackData::{ctor}",
-                  "decoratedName": "??0ButtonCallbackData@@QEAA@XZ",
-                  "kind": "function"
-                }
-              ]
-            }
-          ],
-          "properties": {
-            "targetSymbol": "ButtonCallbackData::buttonMidX"
-          }
-        },
-        {
-          "ruleId": "C26495",
-          "message": {
             "text": "Variable 'ButtonCallbackData::buttonMidY' is uninitialized. Always initialize a member variable (type.6)."
           },
           "locations": [
@@ -1525,6 +1496,35 @@
           ],
           "properties": {
             "targetSymbol": "ButtonCallbackData::textActor"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'ButtonCallbackData::buttonMidX' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/MSI-PC/Desktop/Dev/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER/AB_MULTI_STL_VIEWER.cpp"
+                },
+                "region": {
+                  "startLine": 1087,
+                  "startColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ButtonCallbackData::{ctor}",
+                  "decoratedName": "??0ButtonCallbackData@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "ButtonCallbackData::buttonMidX"
           }
         },
         {
@@ -2777,7 +2777,7 @@
             "resultFile"
           ],
           "hashes": {
-            "sha-256": "4334dba4c5f3b8ff0af9e6554234205f1df3321d8057c97745ba2fadc49b531a"
+            "sha-256": "92ec9ab19e8610a3744fcba64889811a126c530fc3edbe98d8e47563febcad79"
           }
         },
         {
@@ -19725,7 +19725,7 @@
             "uri": "file:///c:/devlib/vcpkg/installed/x64-windows-static/include/freeimage.h"
           },
           "hashes": {
-            "sha-256": "550f48752e1dceab5da333f00018638b5ea572df4b5b2406aaaeeda9b9f169ee"
+            "sha-256": "f2119df30151da073077014200915ad8ab670ecd38d6eb676601259334bb37dd"
           }
         },
         {

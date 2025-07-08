@@ -38,12 +38,12 @@
       <COLUMN>2</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtksys::Status::&lt;unnamed-tag&gt;::Windows_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'vtksys::Status::&lt;unnamed-tag&gt;::POSIX_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>vtksys::Status::{ctor}</FUNCTION>
     <DECORATED>??0Status@vtksys@@QEAA@XZ</DECORATED>
     <FUNCLINE>28</FUNCLINE>
     <ADDITIONALINFO>
-      <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::Windows_</targetSymbol>
+      <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::POSIX_</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -54,26 +54,10 @@
       <COLUMN>2</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtksys::Status::&lt;unnamed-tag&gt;::POSIX_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'vtksys::Status::&lt;unnamed-tag&gt;::Windows_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>vtksys::Status::{ctor}</FUNCTION>
     <DECORATED>??0Status@vtksys@@QEAA@XZ</DECORATED>
     <FUNCLINE>28</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::POSIX_</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\vtksys\</FILEPATH>
-      <FILENAME>Status.hxx</FILENAME>
-      <LINE>86</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtksys::Status::&lt;unnamed-tag&gt;::Windows_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtksys::Status::{ctor}</FUNCTION>
-    <DECORATED>??0Status@vtksys@@AEAA@W4Kind@01@@Z</DECORATED>
-    <FUNCLINE>86</FUNCLINE>
     <ADDITIONALINFO>
       <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::Windows_</targetSymbol>
     </ADDITIONALINFO>
@@ -92,6 +76,22 @@
     <FUNCLINE>86</FUNCLINE>
     <ADDITIONALINFO>
       <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::POSIX_</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\vtksys\</FILEPATH>
+      <FILENAME>Status.hxx</FILENAME>
+      <LINE>86</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtksys::Status::&lt;unnamed-tag&gt;::Windows_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtksys::Status::{ctor}</FUNCTION>
+    <DECORATED>??0Status@vtksys@@AEAA@W4Kind@01@@Z</DECORATED>
+    <FUNCLINE>86</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtksys::Status::&lt;unnamed-tag&gt;::Windows_</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -176,6 +176,22 @@
       <COLUMN>2</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldPosition' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
+    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
+    <FUNCLINE>229</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>vtkEventDataDevice3D::WorldPosition</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
+      <FILENAME>vtkEventData.h</FILENAME>
+      <LINE>229</LINE>
+      <COLUMN>2</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
     <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldOrientation' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
     <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
@@ -198,22 +214,6 @@
     <FUNCLINE>229</FUNCLINE>
     <ADDITIONALINFO>
       <targetSymbol>vtkEventDataDevice3D::TrackPadPosition</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\vtk-9.3\</FILEPATH>
-      <FILENAME>vtkEventData.h</FILENAME>
-      <LINE>229</LINE>
-      <COLUMN>2</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'vtkEventDataDevice3D::WorldPosition' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>vtkEventDataDevice3D::{ctor}</FUNCTION>
-    <DECORATED>??0vtkEventDataDevice3D@@IEAA@XZ</DECORATED>
-    <FUNCLINE>229</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>vtkEventDataDevice3D::WorldPosition</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -304,12 +304,12 @@
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::dir_sign_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::main_dir_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>CGAL::Intersections::internal::Straight_2_base_::{ctor}</FUNCTION>
     <DECORATED>??0Straight_2_base_@internal@Intersections@CGAL@@IEAA@XZ</DECORATED>
     <FUNCLINE>74</FUNCLINE>
     <ADDITIONALINFO>
-      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::dir_sign_</targetSymbol>
+      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::main_dir_</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -320,12 +320,12 @@
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::main_dir_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'CGAL::Intersections::internal::Straight_2_base_::dir_sign_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>CGAL::Intersections::internal::Straight_2_base_::{ctor}</FUNCTION>
     <DECORATED>??0Straight_2_base_@internal@Intersections@CGAL@@IEAA@XZ</DECORATED>
     <FUNCLINE>74</FUNCLINE>
     <ADDITIONALINFO>
-      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::main_dir_</targetSymbol>
+      <targetSymbol>CGAL::Intersections::internal::Straight_2_base_::dir_sign_</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -606,12 +606,12 @@
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::bucket_size_median_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::bucket_size_mean_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
     <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
     <FUNCLINE>102</FUNCLINE>
     <ADDITIONALINFO>
-      <targetSymbol>cvflann::lsh::LshStats::bucket_size_median_</targetSymbol>
+      <targetSymbol>cvflann::lsh::LshStats::bucket_size_mean_</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -638,28 +638,12 @@
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::bucket_size_mean_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::bucket_size_median_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
     <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
     <FUNCLINE>102</FUNCLINE>
     <ADDITIONALINFO>
-      <targetSymbol>cvflann::lsh::LshStats::bucket_size_mean_</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
-      <FILENAME>lsh_table.h</FILENAME>
-      <LINE>102</LINE>
-      <COLUMN>0</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::n_buckets_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
-    <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
-    <FUNCLINE>102</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>cvflann::lsh::LshStats::n_buckets_</targetSymbol>
+      <targetSymbol>cvflann::lsh::LshStats::bucket_size_median_</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -692,6 +676,22 @@
     <FUNCLINE>102</FUNCLINE>
     <ADDITIONALINFO>
       <targetSymbol>cvflann::lsh::LshStats::bucket_size_std_dev</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\devlib\vcpkg\installed\x64-windows-static\include\opencv2\flann\</FILEPATH>
+      <FILENAME>lsh_table.h</FILENAME>
+      <LINE>102</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'cvflann::lsh::LshStats::n_buckets_' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>cvflann::lsh::LshStats::{ctor}</FUNCTION>
+    <DECORATED>??0LshStats@lsh@cvflann@@QEAA@XZ</DECORATED>
+    <FUNCLINE>102</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>cvflann::lsh::LshStats::n_buckets_</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>
@@ -766,22 +766,6 @@
       <COLUMN>0</COLUMN>
     </SFA>
     <DEFECTCODE>26495</DEFECTCODE>
-    <DESCRIPTION>Variable 'ButtonCallbackData::buttonMidX' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
-    <FUNCTION>ButtonCallbackData::{ctor}</FUNCTION>
-    <DECORATED>??0ButtonCallbackData@@QEAA@XZ</DECORATED>
-    <FUNCLINE>1087</FUNCLINE>
-    <ADDITIONALINFO>
-      <targetSymbol>ButtonCallbackData::buttonMidX</targetSymbol>
-    </ADDITIONALINFO>
-    <PATH></PATH>
-  </DEFECT><DEFECT>
-    <SFA>
-      <FILEPATH>C:\Users\MSI-PC\Desktop\Dev\AB_MULTI_STL_VIEWER\AB_MULTI_STL_VIEWER\</FILEPATH>
-      <FILENAME>AB_MULTI_STL_VIEWER.cpp</FILENAME>
-      <LINE>1087</LINE>
-      <COLUMN>0</COLUMN>
-    </SFA>
-    <DEFECTCODE>26495</DEFECTCODE>
     <DESCRIPTION>Variable 'ButtonCallbackData::buttonMidY' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
     <FUNCTION>ButtonCallbackData::{ctor}</FUNCTION>
     <DECORATED>??0ButtonCallbackData@@QEAA@XZ</DECORATED>
@@ -804,6 +788,22 @@
     <FUNCLINE>1087</FUNCLINE>
     <ADDITIONALINFO>
       <targetSymbol>ButtonCallbackData::textActor</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\MSI-PC\Desktop\Dev\AB_MULTI_STL_VIEWER\AB_MULTI_STL_VIEWER\</FILEPATH>
+      <FILENAME>AB_MULTI_STL_VIEWER.cpp</FILENAME>
+      <LINE>1087</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ButtonCallbackData::buttonMidX' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ButtonCallbackData::{ctor}</FUNCTION>
+    <DECORATED>??0ButtonCallbackData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1087</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ButtonCallbackData::buttonMidX</targetSymbol>
     </ADDITIONALINFO>
     <PATH></PATH>
   </DEFECT><DEFECT>

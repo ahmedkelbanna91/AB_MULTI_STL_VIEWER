@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ClearAlignerProductionResources xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" NumberOfStages="14" NumberOfRetainers="0" xmlns="http://tempuri.org/ClearAlignerProductionResources.xsd">
+    <Molds>
+        <Mold Stage="1" Jaw="U" Type="Aligner" Filename="263244UN01.stl" IdTag="263244UN01">
+             <CutLinePTS Filename="263244UN01.pts" />
+             <DirectPartMarking Filename="263244UN01.svg" />
+        </Mold>
+        <Mold Stage="1" Jaw="L" Type="Aligner" Filename="263244LN01.stl" IdTag="263244LN01">
+             <CutLinePTS Filename="263244LN01.pts" />
+             <DirectPartMarking Filename="263244LN01.svg" />
+        </Mold>
+    </Molds>
+</ClearAlignerProductionResources>
